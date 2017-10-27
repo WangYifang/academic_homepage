@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="hhttp://sunshinepursuerwyf.xyz/"/>
-  <updated>2017-10-26T15:43:36.000Z</updated>
+  <updated>2017-10-27T06:35:33.000Z</updated>
   <id>hhttp://sunshinepursuerwyf.xyz/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CNCC2017-Day2</title>
+    <link href="hhttp://sunshinepursuerwyf.xyz/2017/10/27/CNCC2017-Day2/"/>
+    <id>hhttp://sunshinepursuerwyf.xyz/2017/10/27/CNCC2017-Day2/</id>
+    <published>2017-10-27T00:34:52.000Z</published>
+    <updated>2017-10-27T06:35:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h3>关键词：疲累的一整天</h3><p></p>
+<p></p><h4>Dinesh Manocha: Motion Planning Technologies for Human-Robot Interaction</h4><p style="text-indent:2em;">他报告的主题是如何发展Robotics的motion and task planning的能力，以帮助它们和相应的环境自动地合作，涉及的应用领域主要包含自动驾驶，以及人机交互的关系。比较重要的方面就是通过传感器和感知技术来进行实时的计算和plan。他们组呈现了一种新的实时motion planning和与人交互的技术，结合了AI的planning、拓扑、优化、计算机视觉、机器学习、自然语言处理、并行计算等等，可以说这是一个结合了多个计算机领域的project。<img src="/img/myImg/cnccday2-1.jpeg"></p>
+<p></p><h4>陈熙霖: 从物体识别到场景理解</h4>陈教授的主题也是CV相关的，和昨天李飞飞的演讲主题有些关联。他谈到了CV技术在未来的一些发展趋势，认为识别将逐渐走向工业应用，而高精度背后的稳定性风险也必须被注意。<h4>王涌天: “无屏”呈现–人机融合的新纪元<br></h4><p style="text-indent:2em;">PS：终于遇到一位HCI老师了……（虽然是搞偏硬件的研究……</p><p style="text-indent:2em;">从电影屏幕、电视屏幕到移动屏幕，随着ARVR的发展，我们现在有了第四块屏幕：AR屏。随着信息的增加，屏幕不断的增大，“无屏”带来人机融合的真正改变。，而较好的“无屏”显示，需要具备“感之无，视之无，触之无”。传统显示使你手忙脚乱，但无屏显示又会使人接收知识爆炸。</p><p style="text-indent:2em;">接下来他介绍了他们做的工作。全息波导超轻超薄透视显示，几何波导超清薄透视显示，而现在正在所得是适度调节的适度片和AR连接在一起。在应用中，他介绍到了基于实体交互的虚拟伴侣，文化中的复原圆明园，医学中的基于增强现实的手术导航系统。宇航业的航天员心理舒缓系统等等。<img src="/img/myImg/cnccday2-2.jpeg"></p>
+<p><img src="/img/myImg/cnccday2-3.jpeg"></p><p style="text-indent:2em;">下午是滴滴的“如何成为AI工程师”的主题分享以及DI-tech算法大赛的介绍。</p>
+<p>附图：<br>丛京生老师：<br><img src="/img/myImg/cnccday2-4.jpeg"></p>
+<p>场馆概览：<br><img src="/img/myImg/cnccday2-5.jpeg"></p>
+<p><img src="/img/myImg/cnccday2-6.jpeg"></p>
+<p></p><p style="text-indent:2em;">- end -</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h3&gt;关键词：疲累的一整天&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h4&gt;Dinesh Manocha: Motion Planning Technologies for Human-Robot Interaction&lt;/h4&gt;&lt;p style=&quot;text-ind
+    
+    </summary>
+    
+    
+      <category term="CNCC2017" scheme="hhttp://sunshinepursuerwyf.xyz/tags/CNCC2017/"/>
+    
+  </entry>
   
   <entry>
     <title>CNCC2017-Day1</title>
