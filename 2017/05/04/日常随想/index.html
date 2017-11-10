@@ -10,7 +10,7 @@
     
     <title>
         
-            标签: about | 
+            2017日常随想 | 
         
         Yifang Wang
     </title>
@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Yifang Wang in ZJU">
     <meta name="description" content="Keep calm and carry on.">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,随笔">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/mylogo/mylogo.png">
@@ -58,9 +58,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="hhttp://sunshinepursuerwyf.xyz">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: about | Yifang Wang">
+    <meta property="og:title" content="2017日常随想 | Yifang Wang">
     <meta property="og:description" content="Keep calm and carry on.">
-    
+    <meta property="og:article:tag" content="随笔"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -218,6 +218,41 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
 
 <!-- Layouts -->
 
@@ -231,11 +266,20 @@
                 
     <!-- Paradox Post Header -->
     
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/myImg/me.jpeg)">
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script>
+    var randomNum = Math.floor(Math.random() * 21 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
     
             <p class="article-headline-p">
-                About Me
+                2017日常随想
             </p>
         </div>
 
@@ -254,7 +298,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Yifang Wang in ZJU</strong>
-        <span>5月 17, 2017</span>
+        <span>5月 04, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -278,7 +322,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/随笔/">随笔</a>
     </ul>
     
 
@@ -294,7 +338,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=About Me&url=hhttp://sunshinepursuerwyf.xyz//about/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=2017日常随想&url=hhttp://sunshinepursuerwyf.xyz//2017/05/04/日常随想/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -303,7 +347,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=About Me&url=hhttp://sunshinepursuerwyf.xyz//about/index.html&via=Yifang Wang in ZJU" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=2017日常随想&url=hhttp://sunshinepursuerwyf.xyz//2017/05/04/日常随想/index.html&via=Yifang Wang in ZJU" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -312,7 +356,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://sunshinepursuerwyf.xyz//about/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://sunshinepursuerwyf.xyz//2017/05/04/日常随想/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -327,7 +371,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Yifang Wang&title=About Me&summary=Keep calm and carry on.&pics=hhttp://sunshinepursuerwyf.xyz/img/mylogo/mylogo.png&url=hhttp://sunshinepursuerwyf.xyz/about/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Yifang Wang&title=2017日常随想&summary=Keep calm and carry on.&pics=hhttp://sunshinepursuerwyf.xyz/img/mylogo/mylogo.png&url=hhttp://sunshinepursuerwyf.xyz/2017/05/04/日常随想/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -345,9 +389,12 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p></p><h2>Interest</h2> <h3>亦圆亦方</h3><p style="text-indent:2em;"> 亦圆亦方，引申自“元芳”+“yifang”。因为身材较圆，自嘲为“圆芳”，后来干脆叫做“圆方”，好似一个出家人的法号。而圆与方，处事的周到、做事的方正，此处世之道，也正是自己所追求的境界。</p><h3>一方菌</h3><p style="text-indent:2em;"> 前室友戏谑的称谓。从“君”到“菌”只需要一夜之间……</p><h3>SunshinePursuer</h3><p style="text-indent:2em;"> 为了取一个合适的ID也是不择手段了。灵感来自某节课一起组队的学长的ID：PorridgeEater。取一个长一点的ID又能够记住的，其实可以把两三个单词拼凑起来啊~</p><p style="text-indent:2em;"> 可是，叫什么好呢？</p><p style="text-indent:2em;"> 正值阴雨天，没有阳光的杭州总是湿哒哒的，心情也被弄得很潮湿。不知道从什么时候开始，开始向往，甚至迷恋那一抹叫做“阳光”的东西。就叫sunshinepursuer吧。</p><h3>禅是一枝花</h3><p style="text-indent:2em;"> 在某电台开的一档栏目。大二的时候开的，到现在渐渐消失热情了……似乎越来越没有时间弄电台了，但依旧觉得自己的声音很好听23333。</p><div style="text-align: center;"><img src="/img/myImg/radio.png" style="width: 500px; height: 245px;"></div><h3>雪小禅</h3><p style="text-indent:2em;"> 喜欢读文字，却不是理工科们喜欢的那些充满批判感或者未来遐想的文章，亦非那些教人们管理、实践、经营情感的社会类指南。从前是白落梅、林清玄，而今，是雪小禅。我喜欢那种味道——素。一袭素衣，一朵莲花，一卷经文，落笔写下一篇小楷。</p><p style="text-indent:2em;"> 有时候回眸往事，想到为什么要选择这样一个专业。脑海里首先蹦出的一句话是高中语文老师对我某篇随笔的评语：“生活不但需要感性的丰满，更需要理性的支持”。然后便释然。若没有老师的引导，不仅仅是写作，我可能在生活中会走向一个只有感性的极端，停留在旧时光里，停留在老光阴里。这样显然是不可取的。</p><p style="text-indent:2em;"> 于是，为了追求平衡，我选择了理性、逻辑作为自己的研究对象。并将感性作为生活的一部分。平日里学逻辑、学世界上最最前沿的技术；私下里，偶尔回归禅意和素雅，做一个素人。与其说是一种妥协，倒不如说这是一种新的尝试。我想看看，最前沿的科技专业和回归自然老旧时光的兴趣究竟能否共生。有朋友评论说：“你一定是码代码里面文字写的最好的，也一定是写作者中代码码得最好的。”我释然。</p><p style="text-indent:2em;"> 能够在自己的领域坚持多久，又能够为自己所爱的东西坚持多久？且看吧。</p><br><p></p>
-<p style="text-indent:2em;"> 2017年5月23日 夜 来自一个不想做安编作业的小胖子。</p>
-
+        <ol>
+<li>【2017年11月09日】好像真的真的知道了喜欢是什么滋味。之前是不晓得的，但今天却体会到了那种因他而起的失落、绝望。你心中一直期盼的一件东西、一直觉得已经离你不远的一件东西，他突然，就调转了方向，渐渐离你远去。说不出个什么滋味，就好像，天空突然从万里晴空变成阴云密布；就好像，六月杭州的梅雨季，湿热的令人说不出话来；就好像，心里好不容易降低防线装进一个人，突然，他就走了。然后心，又空了。更难过的是，你还必须得装着无所谓，表现出非常同意他的选择，并表示无论怎样都支持他。因为你不想要他知道你喜欢他，你总是在“和他保持最最纯粹的关系”和“更进一步的关系”上面犹豫不决。因为你从小就太害怕失败了，你做任何事情都是做好万全的准备再出发，所以你很稳，这么多年下来，一步一步，走到现在，走到这里。你不想做一些自己无法笃定的事儿。但亲爱的，爱情可不会等你啊。但是你更害怕，害怕他根本没有对你存那份心，窗户纸捅破了以后便再也回复不到从前了。你不仅得不到一个爱人，更会永远失去一个真正真心对你好的人。你什么都不想失去，所以，你一直都不敢向前。    又一次回想过去。悲伤的，你又一次发现，只要是他需要你的时候，你可以别的什么都不做，全部都挪到一边，先做他要求你做的事情。无论是托福延期，还是把作业挪到一边。你全心投入工作，生怕自己不够努力不够强大，帮不到如此优秀的他。可你也渐渐发现，其实，有的时候，他发来一个问题，等你已经花了很久好不容易完成、或者对着他发来的想法思考了很久才回复出一段认真思考过的话以后，才发现，其实他就是那么随口一问，似有似无的聊天而已。你苦笑，笑自己怎么会变成这样。从未有过的为他而活的感觉。  到底是自己太没有主观意识、没找到自己喜欢的事，还是真的已经深陷其中，喜欢的无法自拔？ 最后真想骂自己一句：你特么真有毒……</li>
+<li>【2017年11月04日】上午考完托福，下午想去西湖边转转，然后，便瞧见了最最好看的风景。我喜欢今天的阳光，空气，天空。没有灰霾，一切都这样明朗。我喜欢北山路上树叶处于绿黄交替的样子。倾斜的阳光投洒下来，照到树叶，照到路人，照到地上。金灿灿的，好美。突然想去拍雷峰夕照，就一直沿着北山街走，我看到一排小朋友站在湖边，一起吹着口琴；我看到很多和我一样背着背包汽车共享单车的独自骑行的人，也会偶尔停下来，拍拍风景；我看到优雅的老人站在湖边看风景，仿佛看可以马上想象到几十年前的她，应该也是现在这个样子，只是少了几分苍老，多了几分少女的羞涩吧；长桥。一对新人迎着夕阳在拍婚纱照，真的好美。真想要时间瞬间永恒呐……继续前行辗转到南山路，前面一对开着电动三轮车的老人，大爷穿着工作服开着装满废旧材料的车，大妈穿着那种厚厚的家居服紧紧地依偎在他的身旁，脑海里不知怎的就蹦出了“岁月静好”四个字。或许，他们在为生活拼命奔波，但依旧不忘互相取暖，得到彼此的鼓励。我甚至想着，若是工作日，他们可能过会儿就要去幼儿园或者小学接他们的孙子孙女了吧，然后回家淘个米，做顿饭，然后一天过去，继续第二天的生活……日子虽平淡，但有另一个人的陪伴，便不再孤单。对，在他们后面默默跟了一段车的我又流眼泪了。对，太容易被感动。因为生活，真的，太过美好。</li>
+<li>【2017年9月14日】 把易中天的《魏晋风度》看完了。原先，一直对魏晋风骨非常向往，阮籍猖狂，谢安俊美，一切都在《不如不遇倾城色》中描绘的如一幅幅行草书法，飘逸自在。于是想要更加深入了解这一段历史。便看了此书。只是，看完以后，却觉得有些迷惘了。政治动荡的天下，明知仕途无望，便早早归隐山林，或清谈，或酗酒，或装疯，或嗑药，易中天将之归为一种“病态的自由”。不禁想，人们在制度的圈禁中寻求自由，却在得到自由后却不知该干什么。那时的名仕，也不见得原本就有多么清高，只是实在是政治纷乱复杂，空有一颗治世之心又有何用？多半会因为站错队而成为政治的牺牲品。就如山涛，其实是有很大的政治抱负的，但原以为看清了曹马之争，第一次出仕已是四十岁，但见到司马懿与曹爽之争愈演愈烈又不得不归隐山林。  名仕们政治上无用武之地，只能寄托思想于玄学清谈之中，企图在远离政治纷争的地方寻找所谓的“自由”。“畸形的独立，病态的自由，虚无的真实，脆弱的美。”先生说，这是一个无法避免的过程。“人都是要生病的，文明也一样。而且严格的说，没有那种文明能够一成不变的长久维持良好状态，正如没有谁能万寿无疆永远健康。相反，任何文明一旦成熟，就会开始糜烂，从成熟走向烂熟，从鼎盛走向衰亡。这时，命运和选择就只有两种：要么一病不起，要么浴火重生。幸运的是，我们民族选择了后者。” 突然觉得，其实或许人们是习惯于某一种制度的，他们习惯于屈服，习惯于被统治。只是在实在是没有办法的、在主旋律是极其昏暗迂腐的时间里，他们从心底里无法认同这般的风气，所以不得不选择或像一个勇士一样站出来，试图用自己的牺牲来唤醒世人尤其是统治者的觉醒；或选择做一个隐士，不同流合污，但也不想搭进自己的性命，于是，福兮祸兮均与我无关，我的理想没人能理解没有关系，只要我自己不违背它就好。我只选择自己耕一亩良田，弹琴赋诗，做一只闲云野鹤。    我觉得我自己可能有点像这般老旧的人，慵懒的，本本分分做自己就好。在不得不跳出来的时候，在情况实在是触及我的底线、而没有人站出来说话、类似于主持大局的时候，我才会站出来。这是一种害怕犯错受伤害，和心中其实还是想做一个英雄的矛盾。后者是我从小的性情使然，而前者，则是从初中开始被父亲教育的“莫要露出锋芒本本分分学习”而影响所致。而与我相熟的学长却不是那样。他是真正的勇士，虽说不是与世界作斗争，却是在与还未出现的未来作斗争。他是学科的领头人，可以一直坚持着做着自己认为有意义有希望的事。就像一条新的路途的开辟者。 虽然魏晋和如今是两个全然不同的时代，但每个时代其实，都拥有他们的勇士，有他们的隐士，当然也有随世界浮浮沉沉的芸芸众生。我只希望，在万千谨慎包围我心之中，能够有多几分果断和勇气，不让自己在未来后悔。就如《借我》中所道：“借我不惧碾压的鲜活，借我生猛与莽撞不问明天。”</li>
+<li>【2017年9月5日】 图书馆自习的时候遇到一对老人，大概有六十多岁了吧，并排坐坐着，都开着笔记本电脑，看着书，在查找些什么。看这情况，应该是一对退休老教授。还未放弃对自己喜欢的事物的研究，便闲暇时来到图书馆查阅资料做功课。他们并排坐着，并不交流，估计是怕打扰到别的同学吧。我的脑海里突然就开始像放旧电影一样，开始想象——时间倒流，在几十年前，如我们这般大的时候，他们俩应该也是这样，并肩坐着，静静地自习。不说话，就很美好。这，许是我最最渴望的，爱情的模样了吧……</li>
+</ol>
 
     
 
@@ -373,6 +420,14 @@
             <!-- Post Prev & Next Nav -->
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
+    
+        <a href="/2017/05/17/Hello-Hexo/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
     
 
     <!-- Section Spacer -->
@@ -583,6 +638,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
