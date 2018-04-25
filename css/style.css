@@ -87,7 +87,6 @@ a {
 /****************/
 
 .highlight tr {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
@@ -498,7 +497,6 @@ a {
 }
 #scheme-Paradox .material-layout .material-post,
 #scheme-Paradox .material-layout .material-index {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
@@ -520,17 +518,13 @@ a {
     }
 }
 #scheme-Paradox .material-layout .mdl-card {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     min-height: 400px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: stretch;
+        align-items: stretch;
     border-radius: 2px;
 }
 @media screen and (max-width: 480px) {
@@ -540,28 +534,22 @@ a {
 }
 #scheme-Paradox .material-layout .mdl-card__title {
     padding: 1pc;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1
+    -ms-flex-positive: 1;
+        flex-grow: 1
 }
 #scheme-Paradox .material-layout .mdl-card__media {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     box-sizing: border-box;
     padding: 24.72px;
     background-size: cover;
     cursor: pointer;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: end;
+        align-items: flex-end
 }
 #scheme-Paradox .material-layout .mdl-card__media a,
 #scheme-Paradox .material-layout .mdl-card__title a {
@@ -572,9 +560,8 @@ a {
     padding: 20px 0 1pc;
     width: 100%;
     min-height: 4pc;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center
+    -ms-flex-align: center;
+        align-items: center
 }
 #scheme-Paradox .material-layout .mdl-card__supporting-text strong {
     font-weight: 700
@@ -611,31 +598,24 @@ a {
     margin-left: 0
 }
 #scheme-Paradox .material-layout .meta {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     box-sizing: border-box;
     padding: 1pc;
     height: auto;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: start;
+        justify-content: flex-start
 }
 #scheme-Paradox .material-layout .meta>.meta__favorites {
     margin: 0 8px;
     font-weight: 500;
     font-size: 13px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row
+    -ms-flex-direction: row;
+        flex-direction: row
 }
 #scheme-Paradox .material-layout .meta>.meta__favorites .material-icons {
     margin-left: 9pt;
@@ -643,49 +623,38 @@ a {
     cursor: pointer
 }
 #scheme-Paradox .material-layout .mdl-card .meta.meta--fill {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between
+    -ms-flex-pack: justify;
+        justify-content: space-between
 }
 #scheme-Paradox .material-layout .meta>:first-child {
     margin-right: 1pc
 }
 #scheme-Paradox .material-layout .meta>* {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column
+    -ms-flex-direction: column;
+        flex-direction: column
 }
 #scheme-Paradox .material-layout .something-else>button {
     position: absolute;
     top: 0;
     right: 28px;
-    -webkit-transform: translate(0, -28px);
-            transform: translate(0, -28px)
+    transform: translate(0, -28px)
 }
 #scheme-Paradox .material-layout .something-else .something-else-logo {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
     font-size: 13px;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
     box-sizing: border-box;
     padding: 24px;
     background-size: cover
@@ -707,22 +676,17 @@ a {
 }
 #scheme-Paradox .material-layout .material-post>.material-nav,
 #scheme-Paradox .material-layout .material-index>.material-nav {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 10px 15px;
     color: #fff;
     font-weight: 500;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center
 }
 #scheme-Paradox .material-layout .material-post>.material-nav>.material-nav__button,
 #scheme-Paradox .material-layout .material-index>.material-nav>.material-nav__button {
@@ -789,32 +753,24 @@ a {
 #scheme-Paradox .material-post_container .meta+.mdl-card__supporting-text {
     display: block;
     border: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column
+    -ms-flex-direction: column;
+        flex-direction: column
 }
 #scheme-Paradox .material-post_container .meta+.mdl-card__supporting-text p {} #scheme-Paradox .material-post_container .comments {
     background-color: #eee;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     box-sizing: border-box;
     padding: 2pc;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    -ms-flex-align: stretch;
+        align-items: stretch;
     position: relative
 }
 #scheme-Paradox .material-post_container .comments>form {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 1pc;
@@ -823,9 +779,8 @@ a {
 #scheme-Paradox .material-post_container .comments>form .mdl-textfield {
     margin-right: 1pc;
     color: #616161;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1
+    -ms-flex-positive: 1;
+        flex-grow: 1
 }
 #scheme-Paradox .material-post_container .comments>form .mdl-textfield input,
 #scheme-Paradox .material-post_container .comments>form .mdl-textfield textarea {
@@ -837,57 +792,41 @@ a {
     color: #fff
 }
 #scheme-Paradox .material-post_container .comments .comment {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: stretch;
+        align-items: stretch
 }
 #scheme-Paradox .material-post_container .comments .comment>.comment__header {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 1pc;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center
 }
 #scheme-Paradox .material-post_container .comments .comment>.comment__header>.comment__author {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    -ms-flex-direction: column;
+        flex-direction: column
 }
 #scheme-Paradox .material-post_container .comments .comment>.comment__text {
     line-height: 1.5em
 }
 #scheme-Paradox .material-post_container .comments .comment>.comment__actions {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     font-size: .8em;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    -ms-flex-align: center;
+        align-items: center;
     padding-left: 64px
 }
 #scheme-Paradox .material-post_container .comments .comment>.comment__actions button {
@@ -912,9 +851,8 @@ a {
     }
 }
 #scheme-Paradox .material-layout .section-spacer {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1
+    -ms-flex-positive: 1;
+        flex-grow: 1
 }
 #scheme-Paradox .material-layout .something-else {
     z-index: 7;
@@ -932,7 +870,6 @@ a {
     background-size: 50%
 }
 #scheme-Paradox .mdl-grid {
-    display: -webkit-box!important;
     display: -ms-flexbox!important;
     display: flex!important
 }
@@ -956,9 +893,8 @@ a {
     padding: 40px;
     height: 120px;
     background-color: #fff;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center
+    -ms-flex-align: center;
+        align-items: center
 }
 @media screen and (max-width: 840px) {
     #scheme-Paradox .material-layout .mdl-mini-footer {
@@ -1641,8 +1577,7 @@ a {
     #scheme-Isolation .header-item {
         position: relative;
         left: 50%;
-        -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 }
 #scheme-Isolation .header-title {
@@ -1749,22 +1684,17 @@ a {
 }
 #scheme-Isolation .material-layout .material-index>.material-nav,
 #scheme-Isolation .material-layout .material-post>.material-nav {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 10px 15px;
     color: #fff;
     font-weight: 500;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
 }
 #scheme-Isolation .page-number {
     display: none
@@ -1891,7 +1821,6 @@ a {
     background: #000;
     z-index: 9;
     transition: visibility 0 linear .4s, opacity .4s cubic-bezier(.4, 0, .2, 1);
-    -webkit-transform: translateZ(0);
     transform: translateZ(0)
 }
 .sidebar-overlay.active {
@@ -2135,8 +2064,7 @@ a {
     transition: .3s;
 }
 .sidebar .sidebar-nav li.open a .caret {
-  -webkit-transform:rotate(-180deg);
-          transform:rotate(-180deg);
+  transform:rotate(-180deg);
 }
 .sidebar .sidebar-nav li a .sidebar-badge,
 .hot_tags-count,
@@ -2252,13 +2180,11 @@ a {
 }
 .sidebar {
     width: 0;
-    -webkit-transform: translate3d(-280px, 0, 0);
     transform: translate3d(-280px, 0, 0)
 }
 .sidebar.open {
     min-width: 280px;
     width: 280px;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
 .sidebar-fixed-left {
@@ -2311,10 +2237,8 @@ a {
     width: 20px;
     background: #eee;
     position: relative;
-    -webkit-animation-duration: 300ms;
     animation-duration: 300ms;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out
+    animation-timing-function: ease-in-out
 }
 .MD-burger-layer,
 .MD-burger-layer:after,
@@ -2330,10 +2254,8 @@ a {
     background: inherit;
     left: 0;
     content: '';
-    -webkit-animation-duration: 300ms;
     animation-duration: 300ms;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out
+    animation-timing-function: ease-in-out
 }
 .MD-burger-layer:before {
     bottom: 5px
@@ -2342,118 +2264,59 @@ a {
     top: 5px
 }
 .MD-burger-arrow {
-    -webkit-animation-name: MD-burger-icon-arrow;
     animation-name: MD-burger-icon-arrow;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards
 }
 .MD-burger-arrow:before {
-    -webkit-animation-name: MD-burger-icon-before-arrow;
     animation-name: MD-burger-icon-before-arrow;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards
 }
 .MD-burger-arrow:after {
-    -webkit-animation-name: MD-burger-icon-after-arrow;
     animation-name: MD-burger-icon-after-arrow;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards
 }
 .MD-burger-line {
-    -webkit-animation-name: MD-burger-icon-line;
     animation-name: MD-burger-icon-line
 }
 .MD-burger-line:before {
-    -webkit-animation-name: MD-burger-icon-before-line;
     animation-name: MD-burger-icon-before-line
 }
 .MD-burger-line:after {
-    -webkit-animation-name: MD-burger-icon-after-line;
     animation-name: MD-burger-icon-after-line
-}
-@-webkit-keyframes MD-burger-icon-arrow {
-    100% {
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg)
-    }
 }
 @keyframes MD-burger-icon-arrow {
     100% {
-        -webkit-transform: rotate(180deg);
         transform: rotate(180deg)
-    }
-}
-@-webkit-keyframes MD-burger-icon-before-arrow {
-    100% {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        margin: 3% 37%;
-        width: 75%
     }
 }
 @keyframes MD-burger-icon-before-arrow {
     100% {
-        -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
-        margin: 3% 37%;
-        width: 75%
-    }
-}
-@-webkit-keyframes MD-burger-icon-after-arrow {
-    100% {
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
         margin: 3% 37%;
         width: 75%
     }
 }
 @keyframes MD-burger-icon-after-arrow {
     100% {
-        -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
         margin: 3% 37%;
         width: 75%
-    }
-}
-@-webkit-keyframes MD-burger-icon-line {
-    0% {
-        -webkit-transform: rotate(-180deg);
-        transform: rotate(-180deg)
     }
 }
 @keyframes MD-burger-icon-line {
     0% {
-        -webkit-transform: rotate(-180deg);
         transform: rotate(-180deg)
-    }
-}
-@-webkit-keyframes MD-burger-icon-before-line {
-    0% {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        margin: 3% 37%;
-        width: 75%
     }
 }
 @keyframes MD-burger-icon-before-line {
     0% {
-        -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
-        margin: 3% 37%;
-        width: 75%
-    }
-}
-@-webkit-keyframes MD-burger-icon-after-line {
-    0% {
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
         margin: 3% 37%;
         width: 75%
     }
 }
 @keyframes MD-burger-icon-after-line {
     0% {
-        -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
         margin: 3% 37%;
         width: 75%
@@ -2572,101 +2435,42 @@ a {
 }
 /*Animation*/
 
-@-webkit-keyframes status-active {
-    from {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
-    }
-    to {
-        -webkit-transform: rotate(135deg);
-                transform: rotate(135deg)
-    }
-}
-
 @keyframes status-active {
     from {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
+        transform: rotate(0)
     }
     to {
-        -webkit-transform: rotate(135deg);
-                transform: rotate(135deg)
-    }
-}
-@-webkit-keyframes status-inactive {
-    from {
-        -webkit-transform: rotate(135deg);
-                transform: rotate(135deg)
-    }
-    to {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
+        transform: rotate(135deg)
     }
 }
 @keyframes status-inactive {
     from {
-        -webkit-transform: rotate(135deg);
-                transform: rotate(135deg)
+        transform: rotate(135deg)
     }
     to {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
-    }
-}
-@-webkit-keyframes zoomIn {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 0
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1
+        transform: rotate(0)
     }
 }
 @keyframes zoomIn {
     0% {
-        -webkit-transform: scale(0);
         transform: scale(0);
         opacity: 0
     }
     100% {
-        -webkit-transform: scale(1);
         transform: scale(1);
         opacity: 1
-    }
-}
-@-webkit-keyframes load {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 0
-    }
-    50% {
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-        opacity: 1
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 0
     }
 }
 @keyframes load {
     0% {
-        -webkit-transform: scale(0);
         transform: scale(0);
         opacity: 0
     }
     50% {
-        -webkit-transform: scale(1.5);
         transform: scale(1.5);
         opacity: 1
     }
     100% {
-        -webkit-transform: scale(1);
         transform: scale(1);
         opacity: 0
     }
@@ -2708,22 +2512,10 @@ a {
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     webkit-transform: scale(0);
-    -webkit-transform: scale(0);
-            transform: scale(0)
+    transform: scale(0)
 }
 .ink.animate {
-    -webkit-animation: ripple .5s ease-in-out;
-            animation: ripple .5s ease-in-out
-}
-@-webkit-keyframes ripple {
-    100% {
-        opacity: 0;
-        -moz-transform: scale(5);
-        -ms-transform: scale(5);
-        webkit-transform: scale(5);
-        -webkit-transform: scale(5);
-                transform: scale(5)
-    }
+    animation: ripple .5s ease-in-out
 }
 @keyframes ripple {
     100% {
@@ -2731,8 +2523,7 @@ a {
         -moz-transform: scale(5);
         -ms-transform: scale(5);
         webkit-transform: scale(5);
-        -webkit-transform: scale(5);
-                transform: scale(5)
+        transform: scale(5)
     }
 }
 
@@ -2760,7 +2551,6 @@ a {
     height: 100%;
     box-shadow: 0 0 10px #29d, 0 0 5px #29d;
     opacity: 1;
-    -webkit-transform: rotate(3deg) translate(0, -4px);
     transform: rotate(3deg) translate(0, -4px)
 }
 #nprogress .spinner {
@@ -2782,7 +2572,6 @@ a {
     border-top-color: #29d;
     border-left-color: #29d;
     border-radius: 50%;
-    -webkit-animation: nprogress-spinner 400ms linear infinite;
     animation: nprogress-spinner 400ms linear infinite
 }
 .nprogress-custom-parent {
@@ -2793,22 +2582,12 @@ a {
 .nprogress-custom-parent #nprogress .spinner {
     position: absolute
 }
-@-webkit-keyframes nprogress-spinner {
-    0% {
-        -webkit-transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(360deg)
-    }
-}
 @keyframes nprogress-spinner {
     0% {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
+        transform: rotate(0)
     }
     100% {
-        -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
+        transform: rotate(360deg)
     }
 }
 
@@ -2896,56 +2675,37 @@ a {
     float: left
 }
 .fa-spin {
-    -webkit-animation: fa-spin 2s infinite linear;
     animation: fa-spin 2s infinite linear
 }
 .fa-pulse {
-    -webkit-animation: fa-spin 1s infinite steps(8);
     animation: fa-spin 1s infinite steps(8)
-}
-@-webkit-keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
 }
 @keyframes fa-spin {
     0% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
     100% {
-        -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
     }
 }
 .fa-rotate-90 {
     filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=1);
-    -webkit-transform: rotate(90deg);
     transform: rotate(90deg)
 }
 .fa-rotate-180 {
     filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=2);
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 .fa-rotate-270 {
     filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
-    -webkit-transform: rotate(270deg);
     transform: rotate(270deg)
 }
 .fa-flip-horizontal {
     filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-    -webkit-transform: scale(-1, 1);
     transform: scale(-1, 1)
 }
 .fa-flip-vertical {
     filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-    -webkit-transform: scale(1, -1);
     transform: scale(1, -1)
 }
 :root .fa-flip-horizontal,
