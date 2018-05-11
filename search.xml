@@ -3,6 +3,28 @@
   
     
     <entry>
+      <title><![CDATA[To be or not to be? - part1]]></title>
+      <url>/2018/05/11/VIS2018-reflection/</url>
+      <content type="html"><![CDATA[<p><blockquote>VIS2018投稿心得(1)：这是一篇严肃的记录</blockquote></p>
+<p></p><p style="text-indent:2em;">这是一篇迟到的reflection。本打算在4月初就写的，因为上角膜脱落等意外一直拖到今天才下笔。其实还有一个原因是，想写的东西实在太多，这段交织着苦痛和快乐的记忆，太过厚重，以至于不想要去回想，去整理，去记录。虽然项目核心在于2018的一二三月，但是于我而言，故事应该是从去年十月开始的。</p><h2>The whole pipeline</h2><h4>一、背景</h4>2017年3月，有幸参与第一个科研项目，HMD下的ARVis。虽然只是帮忙polish文章，写写第一版的related work，画画插图啥的，但至少体验了paper投稿的过程。2018投稿被忽悠着依旧搞AR。鉴于上一篇完成得比较rush的这个事实，我们打算这一篇paper早一些开始。我最早的一个会议记录是2017年10月19日。项目组长（陈竹天）尚在北京实习，于是我和巫老师就与他进行远程会议（万万没想到的是这个形式持续了整整半年，过程之艰辛难以想象，以至于现在听到“远程”二字就想吐）。<h4>二、Idea形成</h4>Idea的形成往往来自两个方面：以往的paper和当下新兴的科技成果。但是显然，像我这种缺乏想象力的人是很难从paper中汲取灵感的，即使当时那段时间在组长授意下阅读了IA2017、IEEE VR2017、VIS2017等会议中与AR/VR相关的很多paper。竹天同学虽然身在公司但是依旧心系科研。他首先总结了immersive的优势：1)双目display（3D）;2)交互：可以移动视角（free navigating）;3)随时随地。能脱离传统桌面电脑环境。由此，他第一点提出的是要做一些跟AR下cognition有关的研究（例如focus-context等），但是似乎跟data关系较小；其次，又想到能不能将CNN和AR联系起来，根据场景和语义信息来做东西（sematic-driven的可视化），而这个东西的contribution就在于可以根据不同的场合做出不同的visualization的布局（layout）。<p style="text-indent:2em;">但是大家都觉得有些难搞，似乎很难落实到具体实施。于是继续看paper。11月2号的会是一个重大的突破。我分享了那段时间看的十几篇paper，其中有一篇是IEEE VR上的一个上海交大女程序员做的文章。她把孩子们画的2D图画通过手机AR扫描渲染，变成了3D的动画，十分有趣。于是巫老师灵光一现：“可不可以做3D的infoGraph？我手机扫一下一个黑板擦，然后数据绑定下蹦出了一堆3D黑板擦，体现出学校一年多黑板擦消耗量。”当时大家都觉得这个命题很有趣。后来还提出可以和之前的第二个sematic串起来，根据物体的不同特性做chart。于是我开始survey infoGraph有关的paper。</p><h5>Tips：<br>1)你想到一个idea，就要思考这个的challenge是啥？reviewer将来会如何质问这个idea？这个idea到底好在哪里（与别的现有的相比）？<br>2)想到一个idea或者topic就做大量的survey。如果你是Teamleader，可以把这个工作分担一些给学弟学妹（例如我）。<br>3)How  to do survey? 首先，从师长或自己以前阅读过的一两篇相关paper入手，先通篇精读，找related work的paper，然后就树状地散发开来了；其次，可以列一个summary表格，对你读的paper进行编号和总结，方便组员参考。包含paper类型、summary、motivation、evaluation等。<br>4)开始project的时候，要对我们的工作进行归类，是Application、System、还是theory、survey类的paper。因为不同种类的paper的contribution也是不同的（参照Tamara的pitfalls）。<br>5) idea形成阶段，需要先解决motivation和target audience，再搞theoretical framework。</h5><p style="text-indent:2em;"></p><h4>三、More Survey</h4>回顾这次前期survey，我觉得paper阅读主要分为3阶段。首先，在idea尚未成形时，先看AR/VR有关的会议和paper，例如IEEE VR、CHI、VIS、VIS中的IA workshop等等（快读阅览，抓住intro等，先看一下他的工作是啥样子的，如果觉得有趣再精读）；当出现idea以后，我们会通过师长提供的hint或者自己平时积累的论文来抓住一两篇与我们工作较为贴切的文章进行阅读（精读）；然后是要考虑自己文章的introduction怎么写的时候，进行一个逻辑链的梳理。如果发现有说不通的地方，则需要用一些别的相关领域来进行串联，这时也需要survey paper。例如这一次，我们的目的是要做一个mobile端的AR infoGraph的创作工具。于是思考：我们的target user是谁？设计师吗？竹天于是和他的几个设计师朋友聊了一下，发现即使他们要做infoGraph，也更趋向于使用电脑制作，因为一般他们是随时随地带着电脑走的。要素材的话网上一搜就一大把了。所以移动AR扫描现实物体并进行重建3D模型以获取素材这个随时随地获取素材的功能优势就变得不怎么明显。那么，目标用户究竟是谁呢？谁需要这种随时随地的轻量级的创作？我清晰地记得有两个下午，坐在实验室里面，就是和竹天在远程讨论这个逻辑链的问题。怎么把故事说圆？为什么人们需要这个东西？我们不会share全球贫困人口是多少，不会share一天杭州乘坐公交89路的人有多少；我们会share微信步数，share自己一天吃了啥，会share一些与自己有关的数据，就像发票圈一样。这时候，就像编辑一张手机拍摄的照片时候加一个滤镜一样，我们想要快速完成创作。这才是我们工具的使用场景！于是竹天想到了VIS中的一个分支：Personal Visualization。于是，我们开始survey这一类的paper。之后又牵扯出了与之有关的Physical Visualization。<p style="text-indent:2em;">其实在论文中后期也会进行一些小型的survey，因为在系统设计或者paper撰写过程中，很有可能出现新的idea。例如这一次，在系统实现中，我们发现如果要提供推荐机制，其实AR下的可视化展示的推荐机制与传统可视化还是有很多不同的，尤其是需要考虑环境（背景）因素。比如颜色的选择等等。而其实这一块以前也是有人在做的，但是因为时间很紧，来不及全面survey，只能拎出几个我们想得到的总结一下了（《论投稿时间安排的重要性》）。</p><p style="text-indent:2em;">此外，还有一类与paper内容无关的survey。是有关paper类型的。一开始决定做的是system类型的paper，但是system类型的paper在Tamara的pitfall中讲的并不是很清晰，于是我们打算看看别人的system paper是怎么写的。于是两人开始在IEEE explore上面狂搜关键词tool\toolkit\system等paper，看看别人system的paper是怎么写的。最后发现，一般会分理论和系统两部分。理论一般是一个framework，或是全新的提出，或是在原有的framework上根据场景的特殊性进行打补丁。然后实现一个原型系统来展示这个framework。</p><p style="text-indent:2em;">2017年12月中旬，组长找屈老师面谈idea evaluation（他有一些着急，因为听说我们这边唐谈已经开始做系统1.0版本了）。但是屈老师凭借丰富的投稿经验，大手一挥：“不要着急做idea evaluation，还可以再发散1-2周，想想有没有别的思路。”于是我们继续survey和讨论。</p><h5>Tips：<br>1)做一个topic的时候，一开始会去找该topic的review，看看有没有前人的工作总结。例如infoGraph相关的，就看看有没有人做infoGraph的分类。<br>2)寻找相关工作可以从正向和逆向两个方向去找。例如在找Personal Visualization的时候，首先找到了一篇TVCG的PV&amp;PVA的survey，然后再找PV相关工作（1. 从survey中提到的找；2. 从引用这篇survey的paper中找）</h5><h4>四、paper收敛期</h4>精读我们搜集的paper，用一个思维导图把他们都串联起来。区分同一话题下不同paper的优缺点，发展趋势，并归类。<h5>Tips:<br>注意related work的paper之间的关联性。例如看system的paper，尤其是看编程性语言相关（D3，Vega，etc.）的paper时，要形成相关性。组长就可以观察到，paper之间可以通过paper作者（不同的work是同一个团队做的）、年份等的关系，并总结出这类工作的发展方向。能看出哪些paper值一些列的工作是很重要的，并不是扫一眼intro/related work就完事儿了（我就是这样的……）。例如，有一部分他是这么总结的：<br>   “最早2005，JF Heer做了prefuse<br>    然后Michael找上门，2009年做了protovis<br>    然后2010年做了一些理论工作，说搞规范要更好，因为可以和具体技术剥离，然后拓展了protovis的规范，加入动画支持，并实现了一个Java版的protovis，对比了Java版protovis和prefuse的性能<br>    然后2011做出了D3。完成了从Java style到JS style的转变。”</h5><h4>五、开始writing</h4>2018年2月3号的记录，两天前开始和组长开始写related work。上一次是直接给的word文档，这次开始用LaTeX。<h5>Tips：<br>1) Latex中不同的section是分开在不同的文件中的（有点像oop的class），如related work，introduction各为一个文件；<br>2) 需要引用的paper写在template.bib中。引用的信息可以去dblp上下载BibTex类型的citation。但是注意，可能不是很规范，例如TVCG并不是全称而是缩写，所以在最后几天的时候，citation需要整理一下；<br>3) 第一版related work在写的时候，不要压缩字数，想写多少写多少，之后再压；<br>4) 三个以上并列的，最后一个and前面要加上逗号；<br>5) 总结related work的套路：1. 找一篇这个领域的survey（可以是已经出版的，也可以是别人的PQE），通读；2. 找survey中与我们的工作相关的paper；3. 找VIS领域与我们有关的paper；4. 再看看有没有别的会议、期刊、workshop有涉及我们的工作的；（以上是发散，以下是收敛）；5. 粗读abstract、intro、Limitation（可以找到一些我们能够address的问题）、conclusion；6. 形成related work的逻辑结构，“这类paper可以按照xxx分为几类：…” 一小节Related work的结构：<p></p>
+<ul>
+<li>总起：背景+分类</li>
+<li>中间：按照分类来cite paper</li>
+<li>总结：Limitation+我们可以address的东西</li></ul></h5><h4>六、重要的milestone</h4>2月份主要是系统开发，在3月1号之前，需要至少完成系统demo1.0版本、writing中的intro+related work。注意，写system就像画画一样，要先完成一个整体的骨架，再去细分精绘。——by 屈老师<br><h5>Tips:<br>1) user scenario/case study/user study区别。user scenario是一个应用system的虚拟场景；case study是expert使用system所得出的比较好的/明显的结果；user study是招一批general user来做测试，做统计学上面的分析；<br>2) requirement可以来自expert或general users或InfoVIS pipeline</h5><h4>七、2018.3.23</h4>在这个时间节点的时候，paper除了evaluation的结果、discussion和conclusion以外，均要完成，并送出去KG support。<br><h4>八、2018.3.24~3.31</h4>理论上应该是proof reading、改图、录视频啥的。但是这一次还在搞user study，evaluation还没写。evaluation是组长花了一个晚上一气呵成的，巫老师反馈说还行。但是至少，相比于VIS2017，这一次终于有时间好好地拍一段视频，并且做一个精致的demo视频了。去年是在31号晚上后半夜花了两三个小时做的……AV画质……<br>相比于上一次，这次相对不怎么赶了，但是和项目标准进展还是有一些出入，所以，希望下一次能更好吧。
+
+<p>《堂吉诃德》<br>寨万提斯（西班牙）<br>追梦，不会成真的梦，<br>忍受，不能承受的痛，<br>挑战，不可战胜的对手，<br>跋涉，无人敢行的路。<br>敢于此生求索那颗心，<br>管它征途遥远，<br>道路多险峻。<br>为正义而战，<br>何须踌躇不定，<br>哪怕烧灼在地狱火中<br>也自阔步前行！<br>我若能为这光辉使命<br>穷尽一生追寻，<br>多年后待到长眠十分，<br>我心亦能安宁。<br>而人间，<br>定不同往昔，<br>纵然我，<br>终将疲倦无力，<br>仍要用伤痕累累的双手，<br>去摘，<br>遥不可及的星！</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> visualization </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[西湖记忆]]></title>
       <url>/2018/04/26/%E8%A5%BF%E6%B9%96%E8%AE%B0%E5%BF%86/</url>
       <content type="html"><![CDATA[<p><blockquote>余秋雨说，西湖因为与历史牵连甚多而变得稠厚。却不知，究竟是这明珠促生了故事，还是故事丰富了这明珠。</blockquote><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=437311072&auto=0&height=66"></iframe></p><p style="text-indent:2em;">这是一篇特殊的游记。因为这并不是去过某一个地方以后对其第一印象的记录与还原，而是多次独自探索游览不同地段以后而拼凑起来的一段独特的西子记忆。</p>
@@ -421,14 +443,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[timeline]]></title>
-      <url>/timeline/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[timeline]]></title>
+      <url>/timeline/index.html</url>
       <content type="html"></content>
     </entry>
     
