@@ -3,6 +3,33 @@
   
     
     <entry>
+      <title><![CDATA[weekly_report]]></title>
+      <url>/2019/10/08/weekly-report/</url>
+      <content type="html"><![CDATA[<blockquote>我觉得我应该开始写接计划了。为了按时毕业。For both research and life. </blockquote>
+
+<p></p><h3>2019年10月</h3><p></p>
+<p></p><h4>VIS2020</h4><p></p>
+<p></p><p style="text-indent:2em;">Still不知道要选历史还是社交媒体。我需要快点fix down。</p>
+<p></p><p style="text-indent:2em;">1. New datasets. 唐诗宋词。跟张玮聊。读老板的唐诗宋词定量分析。</p>
+<p></p><p style="text-indent:2em;">2. 再跟兰总谈。约祝老师见面。</p>
+<p></p><p style="text-indent:2em;">3. Geo相关的研究。跟徐老师聊。（中国历史文化地理）</p>
+<p></p><h4>Delphi</h4><p></p>
+<p></p><p style="text-indent:2em;">1. 优化算法。有关volume detection。</p>
+<p></p><p style="text-indent:2em;">2. whisper detection。方法实现。</p>
+<p></p><h4>Personal Issue</h4><p></p>
+<p></p><p style="text-indent:2em;">1. 读老板的唐诗宋词定量分析。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Weekly Report </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[PQE隙碎笔]]></title>
       <url>/2019/10/07/PQE%E9%9A%99%E7%A2%8E%E7%AC%94/</url>
       <content type="html"><![CDATA[<p><blockquote style="font-size: 14px">一些PQE间隙的记录</blockquote></p>
@@ -23,7 +50,7 @@
 <li><p>【2019年9月9-10日】白天写PQE，晚上八点半开始按照cliff的要求规范代码并修理bug。没想到博士二年级开头就练成了本科时候一直很崇拜的“陈竹天”式的research方式。</p>
 </li>
 <li><p>【2019年9月11日】尝试使用cluster来分类作者，真的就发现了两个新的国外作者团队！！！在时间线梳理了以后，发现SMA的巅峰时期是2016年。之后就很少有了。<br></p><p style="text-indent:2em;">下午。困得不行，趴了五分钟强行起来，听摇滚。醒神。<br></p><p style="text-indent:2em;">晚上。勇哥11点分月饼给大家吃。真好。</p>
-<div style="text-align: center;"><img src="/img/myImg/pqe_reflection/SMVA_researchers_cluster.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 90%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></div><br><div style="text-align: center;"><img src="/img/myImg/pqe_reflection/mooncake.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 95%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></div>
+<div style="text-align: center;"><img src="/img/myImg/pqe_reflection/SMVA_researchers_cluster.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 95%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></div><br><div style="text-align: center;"><img src="/img/myImg/pqe_reflection/mooncake.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 95%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></div>
 </li>
 <li><p>【2019年9月12日】问自己：有收获吗？有的。并行工作，老陈技能提前get。有遗憾吗？有的。很不满意PQE的内容。没有酣畅，没有尽兴。</p>
 </li>
@@ -70,19 +97,22 @@
 </ul>
 <ol>
 <li>写文章前期，担心睡不着，所以会看偶像剧。我终于明白这种傻白甜偶像剧为什么会存在了——生活太苦，需要甜份。陈小希和江辰的故事陪我度过了最最难熬的半个月。真好。</li>
-<li>八月底写代码的某一天，因为心里很急，走路也很急，下楼吃饭的时候推门太快，没发现门后面有人在施工，导致被两扇门狠狠的夹了一下。淤血至今未消。不过好在不需要换甲。</li>
+<li>八月底写代码的某一天，因为心里很急，走路也很急，下楼吃饭的时候推门太快，没发现门后面有人在施工，导致被两扇门狠狠的夹了一下。淤血至今未消。不过好在不需要换甲。<div style="text-align: center;"><img src="/img/myImg/pqe_reflection/shouzhi.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 60%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></div></li>
 <li>听wpp吐槽相亲经历，没想到过了几天，自己做梦居然也梦见了。梦境过分真实，父母带着自己去赴宴，对方却是一个中年男子。梦里的自己态度很差，当然也是以失败告终。只是，在散场之后，走在街道上，看到年迈的父亲母亲互相搀扶着在前面走着的时候，我还是不自觉泪如雨下。然后，便哭醒了。或许这也是我内心的恐惧吧。</li>
 <li>整个过程，感觉很充实。但是并没有别人所说的“时间过得很快”，反而很多时候，几次几近绝望的时候，都产生了仿佛时间都凝滞了的幻觉。时间很慢。真的很慢。</li>
-<li>很不想去打扰大家，但是真的难难做到独自承受。所以会跟一些人说。然后你发现，这里的人，渐渐不再理你。薄凉。安慰自己“大家都很忙，凭什么要他们来理你”。也是。整个人就好像Evan Hansen一样，走在街上，没有人搭理，”trying to speak bu nobody hear”。而产生对比的，则是远在千里之外的老朋友们。应总秘书处的姐妹们，各种打抱不平，各种加油鼓劲；dazhen的那句“挺住”，兰总的那句“yifang……”，伽臣最后一天晚上说的“国庆没得放假还要给老巫做视频”（“这不是来给你寻找心理平衡吗”），业哥的打游戏转移注意力大法……我真的真的很感谢，很感谢他们。因为，在这条注定需要独行的路上，他们的response，令我特别特别温暖。<iframe src="https://open.spotify.com/embed/track/0gMW8XpPFPjoApDii5Tj1u" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><br><iframe src="https://open.spotify.com/embed/track/0ZWW07BD8W85lUbgx2sn7E" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<li>很不想去打扰大家，但是真的难难做到独自承受。所以会跟一些人说。然后你发现，这里的人，渐渐不再理你。薄凉。安慰自己“大家都很忙，凭什么要他们来理你”。也是。整个人就好像Evan Hansen一样，走在街上，没有人搭理，”trying to speak bu nobody hear”：<iframe src="https://open.spotify.com/embed/track/0gMW8XpPFPjoApDii5Tj1u" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><br>而产生对比的，则是远在千里之外的老朋友们。应总秘书处的姐妹们，各种打抱不平，各种加油鼓劲；dazhen的那句“挺住”，兰总的那句“yifang……”，伽臣最后一天晚上说的“国庆没得放假还要给老巫做视频”（“这不是来给你寻找心理平衡吗”），业哥的打游戏转移注意力大法……我真的真的很感谢，很感谢他们。因为，在这条注定需要独行的路上，他们的response，令我特别特别温暖。<br><iframe src="https://open.spotify.com/embed/track/0ZWW07BD8W85lUbgx2sn7E" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+
+
+
+
+
+
+
 
 </li>
 </ol>
-<div style="text-align: center;"><img src="/img/myImg/pqe_reflection/shouzhi.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 70%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></div>
-
-
-
-
-<p>感谢各位（雯姐姐，蜀汉，思宇；敏敏，海鹏，星博，乐妮，欣欢，兰总，dazhen，伽臣），感谢老板。</p>
 ]]></content>
       
         
@@ -154,6 +184,7 @@
 <p></p><p style="text-indent:2em;">老板曾经说过的一段话令我很动容：“赵本山曾说过，他每次演小品上台前都很紧张。我做了二十年报告，一想到要上台作报告，也是各种不自在。基因里面的东西，即使再训练，还是残存着身体反应，告诉你，你要做的事情是逆人性而上。”是啊，逆人性而上。并不是所有好的演讲者都是生来就自信开放的。如果别人可以改变，那么，我也可以。</p>
 <p></p><p style="text-indent:2em;">正式开始前，看到乐妮，又想起很久以前她说过的话：“其实每个人都有不同的人格：自闭的，活泼的，话多的，话少的……有的时候是这个人格做主导，有的时候又是另一个人格做主导。其实我们是可以自由切换的。”</p>
 <p></p><p style="text-indent:2em;">是啊，那么，话多且活泼的人格，请开始你的表演吧。</p>
+<p>感谢各位（雯姐姐，蜀汉，思宇；敏敏，海鹏，星博，乐妮，欣欢，兰总，dazhen，伽臣），感谢老板。</p>
 ]]></content>
       
         
@@ -1081,18 +1112,18 @@ vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 30%;box-shadow: 1.
   
     
     <entry>
+      <title><![CDATA[一方菌的玛丽苏]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<p></p><h2>Interest</h2> <h3>亦圆亦方</h3><p style="text-indent:2em;"> 亦圆亦方，引申自“元芳”+“yifang”。因为身材较圆，自嘲为“圆芳”，后来干脆叫做“圆方”，好似一个出家人的法号。而圆与方，处事的周到、做事的方正，此处世之道，也正是自己所追求的境界。</p><h3>一方菌</h3><p style="text-indent:2em;"> 前室友戏谑的称谓。从“君”到“菌”只需要一夜之间……</p><h3>SunshinePursuer</h3><p style="text-indent:2em;"> 为了取一个合适的ID也是不择手段了。灵感来自某节课一起组队的学长的ID：PorridgeEater。取一个长一点的ID又能够记住的，其实可以把两三个单词拼凑起来啊~</p><p style="text-indent:2em;"> 可是，叫什么好呢？</p><p style="text-indent:2em;"> 正值阴雨天，没有阳光的杭州总是湿哒哒的，心情也被弄得很潮湿。不知道从什么时候开始，开始向往，甚至迷恋那一抹叫做“阳光”的东西。就叫sunshinepursuer吧。</p><h3>禅是一枝花</h3><p style="text-indent:2em;"> 在某电台开的一档栏目。大二的时候开的，到现在渐渐消失热情了……似乎越来越没有时间弄电台了，但依旧觉得自己的声音很好听23333。</p><div style="text-align: center;"><img src="/img/myImg/radio.png" style="width: 500px; height: 245px;"></div><h3>雪小禅</h3><p style="text-indent:2em;"> 喜欢读文字，却不是理工科们喜欢的那些充满批判感或者未来遐想的文章，亦非那些教人们管理、实践、经营情感的社会类指南。从前是白落梅、林清玄，而今，是雪小禅。我喜欢那种味道——素。一袭素衣，一朵莲花，一卷经文，落笔写下一篇小楷。</p><p style="text-indent:2em;"> 有时候回眸往事，想到为什么要选择这样一个专业。脑海里首先蹦出的一句话是高中语文老师对我某篇随笔的评语：“生活不但需要感性的丰满，更需要理性的支持”。然后便释然。若没有老师的引导，不仅仅是写作，我可能在生活中会走向一个只有感性的极端，停留在旧时光里，停留在老光阴里。这样显然是不可取的。</p><p style="text-indent:2em;"> 于是，为了追求平衡，我选择了理性、逻辑作为自己的研究对象。并将感性作为生活的一部分。平日里学逻辑、学世界上最最前沿的技术；私下里，偶尔回归禅意和素雅，做一个素人。与其说是一种妥协，倒不如说这是一种新的尝试。我想看看，最前沿的科技专业和回归自然老旧时光的兴趣究竟能否共生。有朋友评论说：“你一定是码代码里面文字写的最好的，也一定是写作者中代码码得最好的。”我释然。</p><p style="text-indent:2em;"> 能够在自己的领域坚持多久，又能够为自己所爱的东西坚持多久？且看吧。</p><br><p></p>
 <p style="text-indent:2em;"> 2017年5月23日 夜 来自一个不想做安编作业的小胖子。</p>
 
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[一方菌的玛丽苏]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
