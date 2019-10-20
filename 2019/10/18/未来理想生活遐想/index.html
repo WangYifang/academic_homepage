@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.3 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            未来理想生活遐想 | 
+        
+        亦方的树洞
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="亦方不在杭州">
+    <meta name="description" content="每天只想回杭州。">
+    <meta name="keywords" content="null,随笔">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/mylogo/mylogo.png">
+    <link rel="icon" sizes="192x192" href="/img/mylogo/mylogo.png">
+    <link rel="apple-touch-icon" href="/img/mylogo/mylogo.png">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="亦方的树洞">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="hhttp://sunshinepursuerwyf.xyz">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="未来理想生活遐想 | 亦方的树洞">
+    <meta property="og:description" content="每天只想回杭州。">
+    <meta property="og:article:tag" content="随笔"> 
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #009688;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #607D8B !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #607D8B !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #607D8B !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #009688;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/myImg/xiaochan.jpg);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/myThumbnail/未来理想生活遐想.jpeg)">
+    
+            <p class="article-headline-p">
+                未来理想生活遐想
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/mylogo/me3.jpeg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>亦方不在杭州</strong>
+        <span>10月 18, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/随笔/">随笔</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=未来理想生活遐想&url=hhttp://sunshinepursuerwyf.xyz//2019/10/18/未来理想生活遐想/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=未来理想生活遐想&url=hhttp://sunshinepursuerwyf.xyz//2019/10/18/未来理想生活遐想/index.html&via=亦方不在杭州" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://sunshinepursuerwyf.xyz//2019/10/18/未来理想生活遐想/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=亦方的树洞&title=未来理想生活遐想&summary=每天只想回杭州。&pics=hhttp://sunshinepursuerwyf.xyz/img/mylogo/mylogo.png&url=hhttp://sunshinepursuerwyf.xyz/2019/10/18/未来理想生活遐想/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote style="font-size: 14px">竟忘记po这篇。好像po在了公众号上，忘记同步blog了。</blockquote><p style="text-indent:2em;">【按】从小到大，好像一直被周围的人甚至是自己当做是女强人一般的存在。“必须优秀”似乎已经成为一个魔咒一样，围绕着我长大。一方面，不想令外界失望，因为不仅仅是你的优秀有了惯性，他们对你的看法也是有惯性的；另一方面，一直以来极度匮乏的安全感是别人怎么给也给不了的，只能靠自己争取。所以，必须变强，必须优秀。必须。但是当看到你自以为很要好的朋友们在去年的一次测试中将一道类似于“给yifang的事业、爱情、家庭重要性排序”的题目的答案都选为“事业第一”的时候，你疑惑了——是人设建立的太过单一吗？还是自己本就如此无趣以至于别人都以为你以事业为乐？疑惑至今。<br></p><p style="text-indent:2em;">以前，总是看到那些说话细声细语的姑娘会嗤之以鼻，总是以木兰为榜样歌颂着“谁说女子不如男”，总是不喜化妆甚至连护肤都不弄，永远是起床最晚出门最早的那个。想成为一个女侠，想成为一个拯救者，想，和别的女子不一样。<br></p><p style="text-indent:2em;">是什么时候开始觉得不是这样的呢？或许是从大学开始考虑职业生涯的时候。不得不说父母或多或少会对自己产生影响。他们想要的，是一个稳定的、听起来还算不错的工作，比如老师，比如医生。而我想要的，是坚持喜欢的专业，不为了“稳定”而丢掉所有。于是妥协，中和。于是现在，我坐在实验室里，敲下这些话。那就当大学老师吧——稳定且可以研究自己想研究的东西。这是深造的初衷，也是跟老师们谈及未来时候会说的话。但我从未敢跟他们说完下半句：要是实在是忙不过来，我也可以退居二线，教课，当一个好母亲。许是过于害怕被他们嘲讽“没有科研激情、碌碌无为过一生”，但更多的可能是自己也不愿意承认罢了。<br></p><p style="text-indent:2em;">始终觉得一个家庭的建立和维持，是需要有人妥协的。而我，已经准备好成为那个妥协的人。倒不是说自己多么的高尚无私，只是因为，始终觉得，于我自己而言，家是要重要于自己的事业的。或许是因为我的父母的缘故。我很幸运，能够拥有陪伴自己长大的父母。因为差事小而少，基本不太会有父母亲出差或者工作到半夜的情况，童年、青少年的记忆里，全部都是三个人的影子，那种感觉真的很棒。父亲会在小时候骑个自行车带我去城郊的农村兜风，遍地的油菜花、蜻蜓、蝴蝶，轮胎在石子路上摩擦而发出的沙沙的声响，晚风暖暖的吹在脸上泛起微醺般的红晕；而和母亲一起总是有说不完的话，就像姐妹一样，可以在床上聊一整夜也不觉得困。因而每次听到有的伙伴们因为父亲或者母亲不在身边而双方都显得陌生的时候，总觉得是巨大的遗憾，并且甚是不解：“为什么他们可以为了工作放弃小孩子的成长？”<br></p><p style="text-indent:2em;">但是全然的顾家肯定也是做不到的，没有了自己的追求全然投入家里而失去了自我，也是断然没有意义的。所以看到福原爱形容自己婚后“做饭、等他回家”的愿景也是有些不赞同。所以，究竟怎样，才是自己理想的样子呢？究竟怎样的生活，才可以真的令人觉得幸福和满足呢？<br><blockquote style="font-size: 12px"><strong>记工作</strong><br>早晨七点半 自然醒<br>窗外的阳光铺满整个房间<br>树梢的鸟儿唱着动人的歌曲<br>不远处马路上汽车飞驰着 还伴着公交的提示音<br>又是新的一天 来临<br><br>煮一碗粥 配上妈妈腌制的咸鸭蛋<br>又或者是炸面 配上妈妈昨天院子里刚摘的小白菜<br>美美的早餐过后 出门<br><br>办公室里 洗一洗茶具 泡上一杯枸杞菊花<br>打开电脑 翻看最近VIS新上传的论文<br>总是会被一些新奇的想法逗笑<br>也时常会因为一些灌水的八股文而觉得无趣<br><br>临近中午 处理昨天下班至今新收到的邮件<br>有学院行政处的 有学术委员会的 还有一些项目进度需要回报的…<br><br>有些来不及了 还是先吃个午饭吧<br>去隔壁敲敲门<br>同年入校工作的朋友们一起相约着去西二餐厅<br>还是喜欢那一口杭州卤味呀<br>这么多年都没变<br><br>饭后拐进一鸣 来一杯芦荟酸奶<br>然后匆匆回办公室继续处理邮件和文件<br><br>两点了 困得不行 小沙发上躺着睡一觉吧<br><br>然后被一通电话吵醒<br>原来是学院领导安排了参观者来参观实验室<br>叫你负责准备一下<br><br>爬起来继续处理昨天还未写完的项目申报计划<br><br>五点了 起来舒展舒展筋骨吧<br>去看看学生们都在忙什么呢<br><br>每天的实验室光顾成了最有趣的环节<br>就好像以前班主任巡查教室一样<br>明明自己什么也没看到<br>学生们却总是一副警惕的样子<br>生怕被老师发现自己正在打游戏或者偷吃零食<br><br>转悠了半个小时 继续回去处理半天积攒下来的邮件<br><br>六点了 食堂好像没饭了 去剑桥吃吧<br>点个六聚馆的腰花面也是极好的<br><br>回来终于可以歇一会儿了<br>看点书 或许这次可以看看那本地道风物的《民俗时代》了<br><br>八点 清扫了一遍邮件 列了明天的计划<br>离开<br><br>九点 家里爸爸妈妈都洗漱完了在看电视或者读报纸<br>见我回来便聊几句 然后便去睡了<br><br>手头还有一份待审的论文还没看 时间有些紧<br>洗完 又看了一个小时 困得不行 便睡了<br><br>窗外知了此起彼伏<br>窗内风扇送出凉风<br><br>不再失眠 一觉 到天明</blockquote>
+
+<hr>
+
+<blockquote style="font-size: 12px"><strong>记周末</strong><br>上周看完了《暗恋桃花源》三十六周年纪念版 很是感动<br>摄影协会近期要办一个杭城采风活动 刚买的镜头和脚架可以派上用场了<br>周日背着一个摄影包便出门 和老邱老罗们一起出发<br>秋高气爽 登高摄影 拍个照还顺便把身体也锻炼了<br><br>散场是五点多了<br>正好终点在九溪附近 便相约去那家紧贴着十里琅珰起点的茶馆吃茶<br>老板是与我们同一级计算机毕业的程序员 这些年工资积攒着 终于盘下了这件茶馆<br>糕点塞满了肚子 不吃晚饭了 收拾东西回家<br><br>一边弹着博一时候在香港买的那把吉他 一边跟二老唠嗑<br>也不外乎就是一些时政、民生，当然也夹杂着催婚<br>只不过话头一起 你就开始顾自弹唱：<br>“池塘边滴榕树上 知了在声声的叫着夏天”~</blockquote>
+
+<hr>
+
+<blockquote style="font-size: 12px"><strong>记成家</strong><br>早晨 六点半 闹钟响<br>身边的一大一小还在熟睡<br>轻轻出门 准备早餐<br><br>早高峰实在是恼人的<br>所以有时会直接带孩子坐地铁<br>也好过拥挤的车道<br><br>办公室里 新的教案还没准备好<br>赶紧处理了邮件继续干<br>这一次的教学改革一定要做的漂亮<br><br>渐渐退出了论文审稿委员会<br>渐渐不再有时间看最新一批的论文<br>渐渐转到了教学<br><br>下午 另一个校区<br>给同学们上数据可视化课程<br><br>经典的例子不可少<br>但很多都是网上搜罗来的最新的可视化故事<br>年年教学年年新<br><br>布置的大作业也每年都不同<br>但都是开放式 可以是设计 也可以是实现<br>然后请一些完全不认识的人来评分<br>有以前一起做研究时候认识的学者<br>有以前参会偶然相识的数据艺术家<br>还有一些学校里头招募来的学生……<br><br>你把每一次大作业都办的火热<br>是计算机，更是艺术创作<br><br>回家很迟了，孩子一般都是父母接下学<br>还好回到家不算太晚 七点<br>吃完饭 一大一小围在桌子旁边写作业<br>一个写小学作业 一个抓紧时间看看有趣的书或者论文<br><br>八点 先生也回来了 然后一起准备孩子老师布置的手工课任务<br>折小船、或者搭房子……<br><br>又是匆忙又美好的一天</blockquote>
+
+<hr>
+
+<blockquote style="font-size: 12px"><strong>记周末</strong><br>青芝坞 研究了三年民宿、茶馆和民谣酒吧<br>拿出前些年积攒的一部分钱 终于开起了自己的民谣茶馆<br>当然 是和老邱老罗合伙的 现在老邱是主理人<br><br>时常带着父母、孩子和先生去坐一坐<br>也会谈会儿琴 唱一些歌<br><br>偶尔也会被一些去那里仔细的学生们认出来<br>然后一起合照留念<br><br>晚上去茶馆隔壁的餐厅吃饭 大学时候最要好的闺蜜舍友们开的火锅店<br>见我们来了<br>拿出专人专供的席位——二楼视野最最开阔的一桌，玻璃窗外变能看到大半条青芝坞的街景<br>上了专人专供的独家秘方——因为全家人不吃辣，所以专供顶顶养生的菌菇汤料<br><br>慢生活街区 华灯初上<br>明明很喧嚣 却又很安静<br>行人三三两两走着<br>汽车缓行着<br><br>眼前的汤料正冒着热气<br>身边的人依偎着你<br>对面的人正眯着眼睛微笑着看着你<br><br>这 便是你的世界<br>你的 全部</blockquote>
+
+</p><p>(Fin.)</p>
+
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/10/18/博一/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/mylogo/sidebar_header.jpeg);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/mylogo/me3.jpeg" alt="亦方不在杭州's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        Potterkkk@hotmail.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto: Potterkkk@hotmail.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                Homepage
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    Archives
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/10/">十月 2019<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/06/">六月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/04/">四月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/09/">九月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/07/">七月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">5</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/resume/my_resume.pdf" title="Resume">
+                
+                    <i class="material-icons sidebar-material-icons">assignment</i>
+                
+                Resume
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/gallery" title="Gallery">
+                
+                    <i class="material-icons sidebar-material-icons">camera alt</i>
+                
+                Gallery
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags" title="Wordle">
+                
+                    <i class="material-icons sidebar-material-icons">apps</i>
+                
+                Wordle
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/timeline" title="Timeline">
+                
+                    <i class="material-icons sidebar-material-icons">timeline</i>
+                
+                Timeline
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="About me">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About me
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+
+        <iframe src="https://open.spotify.com/embed/album/6XqgrYCBvlhXYDST10dTEZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/WangYifang" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.svg);">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;亦方的树洞
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+            <div>
+                <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                <div>
+                本站总访问量 <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
+                <br>你是第<span id="busuanzi_value_site_uv"></span>个来到的小伙伴
+                </div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setTimeout(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        },3000);
+    });
+</script>
+
+                </main>
+            </div>
+            
+        </body>
+    
+</html>
