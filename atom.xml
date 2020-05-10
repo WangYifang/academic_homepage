@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="hhttp://sunshinepursuerwyf.xyz/"/>
-  <updated>2020-02-21T07:26:21.440Z</updated>
+  <updated>2020-05-10T04:10:00.879Z</updated>
   <id>hhttp://sunshinepursuerwyf.xyz/</id>
   
   <author>
@@ -17,19 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>vis2020</title>
+    <link href="hhttp://sunshinepursuerwyf.xyz/2020/05/10/vis2020/"/>
+    <id>hhttp://sunshinepursuerwyf.xyz/2020/05/10/vis2020/</id>
+    <published>2020-05-10T04:10:00.000Z</published>
+    <updated>2020-05-10T04:10:00.879Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>2020</title>
     <link href="hhttp://sunshinepursuerwyf.xyz/2020/02/21/2020/"/>
     <id>hhttp://sunshinepursuerwyf.xyz/2020/02/21/2020/</id>
     <published>2020-02-21T07:24:22.000Z</published>
-    <updated>2020-02-21T07:26:21.440Z</updated>
+    <updated>2020-05-01T03:45:25.851Z</updated>
     
-    <content type="html"><![CDATA[<p>【2020年2月21日】上午开完Delphi项目会。对方公司根本就不care你是不是在投稿。自从项目换了leader，cliff离职了以后，就换了一个更加touch的人。明明上次说的是接下来就看LSTM就可以了，这次又变卦，变成提高之前结果的准确度。本来就是从sample里面得到的rule-based规则，肯定很不标准啊……<br>另一头，业哥又很多要求，嫌弃这那。确实是我的问题，因为想不清楚。变了又变。我觉得我越来越像欣欢口中的海鹏了。“他自己没主意。”<br>看着面前sketch的界面，脑子一片空白：Network的设计还没弄出来；算法的group detection还没弄出来。界面的Layout又不断在变动……<br>我真的不行了。没有人可以倾诉，大家都很忙。打开QQ音乐，试图听五月天的摇滚，却愈发烦躁。看到推荐歌单里面有陈奕迅。<br>点进去——“你给我听好”。眼泪止不住的流出来。流啊流，循环了三四遍，眼泪就这样流啊流……到头来，我只是一个没有一技之长的人。coding，writing，design，idea，什么都没有掌握。到头来，连一个可以打电话过去倾诉的人都没有。又或者，内心会问自己：凭什么呢？凭什么人家要听你倾诉？人家跟你有这么熟吗？</p><p>一个人爆哭。哭累了，就好了。</p><p>你别说，这方法还挺好的。二十分钟以后，内心无比平静。不打扰别人，自己解决。</p><p>就这样吧，还能烂到哪儿去呢？</p><p>【2020年2月17日】本以为2月开始业哥开发我写文章。却没曾想是连model都还没有。怪谁呢？一周换一个技术重点，而且还不知道怎么去解决。简直天方夜谭。试问模型从何来？问紫坤，曰：“郑宇那边在做啊”；问宇哲，曰：“巍巍那边早就搞定了”。而我的domain：“We’re just using very simple regression which I think is not usefull to you.”…一开始就给自己的文章定错了位，原以为是一篇domain提供模型、我修改并设计可视化的paper，没曾想是自己yy自己找技术问题自己去找方法解决的paper……苦笑：明明一年半以来各种人劝我不要选这个topic，选点先能够让自己立足的，再去尝试这个。可是脑子可能就是滑塌了，就是想搞这个。就好像……就好像是夙愿一样。好吧，痛苦既是自找，那就自己承受。大不了接下来一年被辱骂，甚至退学，都是事出有因——因为自己笨，自己不会权衡，自己不会算计，自己还喜欢逞强。Fine。<br>【2020年2月3日】正在设计界面，找case。看到品级的数据，忽而想起bijia告知的“品级数据有很大的问题”。又想起她说为了培养自己传统的“史学家”的修养，才到人大清史所去深造，去学习真正的历史学。忽然觉得很戏谑。自己和Cameron仿佛是介于文史和计算机之间的边缘人物，传统史学家着重考证，而我们却想方设法的想去“计算”。到头来很有可能双方都难以理解我们干的事情。不禁苦笑。<br>【2020年1月26日】农历大年初二。直到今早上看到消息，出门去药店试图买口罩，我的心才开始慌张起来。这几天雨一直下个不停，骑着电瓶车在路上，行人寥寥，灰霾的天空下，枯树叶被雨水拍打着，做着飘落前最后的抵抗。视野倒是清晰不少，连日的雨水打落了雾霾，却也使街道显得更加清冷。零星的行人都带着口罩，有些是蓝色的医用口罩，有些是白色的棉布口罩，还有些跟我一样，只是带着海绵口罩。死寂。脑海中忽的就蹦出了这个词。这是我二十四年来从未见过的样子。即便是在G20峰会、外来务工者都回乡的时候都没有过这样的荒凉。同样是行人寥寥，而这一次的不同在于，多出了口罩。</p><p>雨水浸湿了发檐，淋湿了眼镜，却一刻都不敢停下。进了潘水的两家药店，先是海王星辰，问还有口罩吗，店员说卖完了。我心中便生出不好写预感。再往前走第二家，还没定稳车，便看到门口贴着“口罩卖完”的告示。转而去高桥，拉开店门，往里面问：“请问口罩还有吗？”，店员大妈带着绿色的带阀门的口罩机械的摇了摇头。第二家店门口也贴出了口罩已售罄的字样。再找下去也是徒劳，启程往回走，抱着最后一丝希望去小区门口的药店。正挣扎着想要从电瓶车上下来，药店阿姨就探出头来问：“你要什么？别下来了”“口罩还有吗？”她一副“我就知道你要买口罩”的神情：“没有了！”至此，白走一趟的行程结束。</p><p>空无一人的路面上，只剩下雨水拍打的声音，粼粼的寒风，再加上因雨水洗刷而变得异常清晰的景象和前方漂浮着的片片灰云，我感觉自己仿佛瞬间置身于一个病态的环境之中，好像扑面而来的不是雨水，而是消毒液——酒精的味道，充斥着整个城市。我开始慌了。</p>]]></content>
+    <content type="html"><![CDATA[<p>【2020年5月1日】第四次VIS DDL。第一次一作投稿。八点，结束了。9点，和然总欣欢佳慧吃完肯德基的早餐，告别。在之江旅程结束。头昏昏沉沉的，吃完早饭，走到地铁站，坐地铁。却怎么也睡不着。8点结束，迎来的却不是原先的欣喜，而是无限的忧虑。思考之后三年自己要怎么才能够靠自己生存下来。再也没有业哥几个月帮忙处理数据coding。再也没有伽臣熬夜帮忙做视频。再也没有欣欢及时雨般的救急救我的写作。再也没有。再也没有老巫即使手下学生这么多，还要在ddl最后一天匀出一点时间来帮我看文章。过程中有苦痛，被嫌弃，却总是最后变成那个被照顾的人。<br>一路上，打开微博，打开淘宝，去逛大麦和马蜂窝，却什么也提不起兴趣。<br>到家，没人。淘米。耳机里传出陈奕迅的声音。还是那首《你给我听好》。仿佛是一个开关。<br>眼泪再也止不住，伴着水声，泪流成河。<br>我知道了。我终于知道我在难过些什么。<br>这是真正的和浙大告别。是我学生时代与浙大最后的交集。<br>即便是在两年前的毕业典礼上都从未感受到这样的悲伤。就好像当时的毕业仅仅只是毕业而已。或许是觉得自己终究会回来，就像之前的学长学姐一样。<br>即便在科大近两年，每次回紫金港的时候，总是像回自己家一样。<br>这一次呢？终究是要说再见了。<br>未来如何，未可知。或幸运能回校任教，又或许能力不足只能仰望。<br>但无论哪一种，都不再是如今的模样。即便是ZJUVIS，人来人往，学生终究只是一届又一届的过客，毕业了年长的，马上又有新的血液。而那时候的我又在哪里？我又能认识其中多少人？<br>我单调的大学生活啊，除了可爱的室友们，唯一的幸运，就是遇见你们啊。<br>以上。<br>【2020年4月11日】感觉对于mobility学者来说，更专注于整体变化，但是对于传统历史学者来说，更多的是从微观的案例出发来讲故事。也是一种Balance吧。<br>【2020年4月10日】整理前天interview老康的录音，我们还聊到，很多时候hire person in a company并不仅仅只能够通过career experience similarity。很多时候还跟这个人是否能很好的融入公司、同事环境有很大的关系，但是这种东西就很难用数据分析来得到。所以其实能够通过计算分析得到的东西真的挺有限的。<br>蛮有意思的，他还问必佳，which is a better place? 杭州 or 苏州？哈哈哈哈<br>【2020年4月6日】想起这么多的设计稿、sketch上的、概念画板上的，想起伽臣有一次戏谑的说了句“原先搞的那个tsne现在连渣都不剩了”……迭代这么多次，最后还是不尽人意。总想着最后应该是会有一个fancy的设计，到头来却只是平平无奇的简单拼凑。心比天高不是坏事，但是异想天开就太过奢望了。明明只能够画一个一笔的圆圈，却总想着最后可以得到一个3D的太阳。这就是本人。异想天开的本人。    很多设计，有些是因为不合理被抛弃，有些是因为实现起来费劲或根本不可能（最开始的organization flow）而被抛弃。最后呈现的这个系统，简单的可怜，却也是已经是尝试过无数次才得到的了。<br>【2020年4月5日】继续找补充的case。打开数据库，看到一条条records，品级一级一级的，还没什么感觉，好像仅仅只是数字而已。但是当开始在另一个数据库中查到名字，打开wiki和百度百科去查阅人物的时候，这些数字便一下子鲜活了起来。人物履历、人物政绩、亲友关系……忽然恍惚——在数据库中存储着的一条一条的冰冷的数据，在此刻，变成了一个又一个人物传记——当冰冷的数字变成故事的时候，他变的有血有肉了起来。我看到了宰相刘罗锅揭发和珅贪腐受贿，我看到了林则徐愤而辞官又被请出山虎门销烟，我看到淮军湘军一干民间团派镇压太平天国，我也看到清末各种政治派别风起云涌，政府无能令许多本想一展抱负的有为青年愤而辞官。其中，有很多事件是无法用现代的career path来解释的，例如父母丧，丁忧停职后又被重新启用等等。这是冰冷数据和鲜活故事的碰撞，也是理性的数据分析和主观的历史事件之间的碰撞。我有时候会感到很无力——两套完全不同的思维经常在打架；有时候又觉得庆幸——理性分析感觉疲乏无助的时候，可以暂时钻进一个个故事中歇一会儿，然后再回来继续。冰与火、天与地、阴与阳，虽然在两极之中周旋常常感到头疼炸裂，但是如若能够找到通信的桥梁，那也将是对两方学者都能够产生裨益的。这或许就是交叉学科的魅力所在吧。</p><p>【2020年3月13日】早晨起来，看到VIS投稿延期的通知。百年一遇的感觉。晚上，看到四川的医生去往了意大利支援疫情。这是国内疫情平缓的一周，这也是国际疫情严重起来的一周，从伊朗、韩国、日本，到现在的意大利、美国……一个中国变成一个世界。中国各地的英雄们，从支援武汉，变成了支援世界。就是很感动。这段时间来，不知道哭了多少次。在房间里为了自己的无措而哭，打开手机看到逆向而行的英雄们而哭。忽然有了念头，投完稿，把自己的生活和疫情关联在一起。做一个时间线吧（微信的聊天记录啊、微博的原创啊）。我现在甚至都可以想象，自己的渺小，在这苍茫的世界中，不值一提。<br>【2020年3月8日】突然发现原来又到三八节。遗憾今年收不到老板的玫瑰花了。晚上，跟业哥讨论，发现mainview的encoding有很大的问题。致命性的。真的很绝望。非常不顺，满脑子都是倩雯的那一句“泥淖中爬行”。很失落。跟乐妮讨论解决方法，还好有这位小伙伴一直在一起。快十二点了，打开朋友圈。老板发的那一段话又让我泪目。加油和鼓劲，满满的都是身为老师的鼓励。想起去年的时候，好像就是这一天，早晨跟乐妮在食堂吃早饭讨论coding，被老板偷拍了。往事依旧鲜活，却不觉又是一年。白天老板和老巫都发了CS女性学者的比例在上升，都是一种鼓励。想到老板前段时间群里说的：关键是这次学到了什么没有。是啊，没有什么东西是一蹴而就的，有学习到，就可以了。<br>【2020年3月8日】我开始思考自己的学习模式。每一样东西都是新接触。似乎没有一样东西是精通的。我觉得我需要掌握一个可以“谋生”的优势，而不是每一件事都是平平无奇的。所谓“三好生”，其实放置在那些各个领域专业的精英面前（coding,design,speech）很快就沦落为“平庸者”。还是要培养自己的核心竞争力。所谓的“长板”。<br>【2020年3月6日】写Task。坐在电脑前面却什么也写不出来。想出门，开窗，却发现下雨了。就这么趴在窗台上，发呆。白噪音真好啊，春雨，淅淅沥沥的，不大，落在遮雨板上叮叮当当，落在泥土里滴滴答答，落在河水里没了声响。前面的柳树早已完成了抽芽，黄绿的一大片，连成一条叫做春天的色带。空气里似乎弥漫着一股奇怪的味道。努力嗅了嗅，炊烟吗？城市里怎么会有炊烟呢？再嗅了一下，中药吗？是楼下邻居在煎药吗？好像也不是。闭上眼睛，再嗅了嗅——唔……好像就是雨水打在泥土上的味道呢……久违了，“泥土的芬芳”。<br>【2020年3月1日】在看event sequence的paper。不禁感叹真的是一个新手。虽然在可视化圈子三年了，但本科看的都是ARVR以及inforgraph和personalvis的东西，这一次，从头学sequence mining，知道了很多工具，知道了tensor等概念。盲区正在缩小……现在突然有一种“学习使我快乐”的错觉。为什么以前没有呢？因为以前一直很焦虑，焦虑自己为什么知道的这么少，为什么我应该知道的却没有知道。而现在，就把自己当一个新手去学，就会觉得，嗯，又学到新东西了呢……<br>【2020年2月29日】四年一遇的一天，开了两个会。下午是老巫组的项目进度报告，自己的进度（写作和系统）都落后很多，但还是收到了老巫的鼓励。（期间自己报告完忘记关麦，大家听到了窝猪蹄般的狂笑）。晚上拉了伽臣，然后和老巫业哥一起开会。前一个会是俊修和欣欢，本来说好是十点半结束的，后来到了十一点多了还在继续。本以为应该就拖到明早了，万没有想到十一点半老巫来信息了说是可以开始了。急忙叫起了业哥和伽臣。然后confirm了一下现在的进展和方向。然后居然就零点三十了。2月29号，25岁的2月29号，结束了。我真的感觉到很温馨，一点都不孤单。因为老师是鼓励的，还有很多小伙伴在一起帮助我。好像紧张的投稿期就像以前闲暇的日子一样。为什么一定要把读博弄得很苦呢？就好像是苦难一样。为什么就不能跟伽臣那样，作息规律，从不熬夜，就像正常工作那样完成一次一次的投稿呢？<br>【2020年2月21日】上午开完Delphi项目会。对方公司根本就不care你是不是在投稿。自从项目换了leader，cliff离职了以后，就换了一个更加touch的人。明明上次说的是接下来就看LSTM就可以了，这次又变卦，变成提高之前结果的准确度。本来就是从sample里面得到的rule-based规则，肯定很不标准啊……<br>另一头，业哥又很多要求，嫌弃这那。确实是我的问题，因为想不清楚。变了又变。我觉得我越来越像欣欢口中的海鹏了。“他自己没主意。”<br>看着面前sketch的界面，脑子一片空白：Network的设计还没弄出来；算法的group detection还没弄出来。界面的Layout又不断在变动……<br>我真的不行了。没有人可以倾诉，大家都很忙。打开QQ音乐，试图听五月天的摇滚，却愈发烦躁。看到推荐歌单里面有陈奕迅。<br>点进去——“你给我听好”。眼泪止不住的流出来。流啊流，循环了三四遍，眼泪就这样流啊流……到头来，我只是一个没有一技之长的人。coding，writing，design，idea，什么都没有掌握。到头来，连一个可以打电话过去倾诉的人都没有。又或者，内心会问自己：凭什么呢？凭什么人家要听你倾诉？人家跟你有这么熟吗？</p><p>一个人爆哭。哭累了，就好了。</p><p>你别说，这方法还挺好的。二十分钟以后，内心无比平静。不打扰别人，自己解决。</p><p>就这样吧，还能烂到哪儿去呢？</p><p>【2020年2月17日】本以为2月开始业哥开发我写文章。却没曾想是连model都还没有。怪谁呢？一周换一个技术重点，而且还不知道怎么去解决。简直天方夜谭。试问模型从何来？问紫坤，曰：“郑宇那边在做啊”；问宇哲，曰：“巍巍那边早就搞定了”。而我的domain：“We’re just using very simple regression which I think is not usefull to you.”…一开始就给自己的文章定错了位，原以为是一篇domain提供模型、我修改并设计可视化的paper，没曾想是自己yy自己找技术问题自己去找方法解决的paper……苦笑：明明一年半以来各种人劝我不要选这个topic，选点先能够让自己立足的，再去尝试这个。可是脑子可能就是滑塌了，就是想搞这个。就好像……就好像是夙愿一样。好吧，痛苦既是自找，那就自己承受。大不了接下来一年被辱骂，甚至退学，都是事出有因——因为自己笨，自己不会权衡，自己不会算计，自己还喜欢逞强。Fine。<br>【2020年2月3日】正在设计界面，找case。看到品级的数据，忽而想起bijia告知的“品级数据有很大的问题”。又想起她说为了培养自己传统的“史学家”的修养，才到人大清史所去深造，去学习真正的历史学。忽然觉得很戏谑。自己和Cameron仿佛是介于文史和计算机之间的边缘人物，传统史学家着重考证，而我们却想方设法的想去“计算”。到头来很有可能双方都难以理解我们干的事情。不禁苦笑。<br>【2020年1月26日】农历大年初二。直到今早上看到消息，出门去药店试图买口罩，我的心才开始慌张起来。这几天雨一直下个不停，骑着电瓶车在路上，行人寥寥，灰霾的天空下，枯树叶被雨水拍打着，做着飘落前最后的抵抗。视野倒是清晰不少，连日的雨水打落了雾霾，却也使街道显得更加清冷。零星的行人都带着口罩，有些是蓝色的医用口罩，有些是白色的棉布口罩，还有些跟我一样，只是带着海绵口罩。死寂。脑海中忽的就蹦出了这个词。这是我二十四年来从未见过的样子。即便是在G20峰会、外来务工者都回乡的时候都没有过这样的荒凉。同样是行人寥寥，而这一次的不同在于，多出了口罩。</p><p>雨水浸湿了发檐，淋湿了眼镜，却一刻都不敢停下。进了潘水的两家药店，先是海王星辰，问还有口罩吗，店员说卖完了。我心中便生出不好写预感。再往前走第二家，还没定稳车，便看到门口贴着“口罩卖完”的告示。转而去高桥，拉开店门，往里面问：“请问口罩还有吗？”，店员大妈带着绿色的带阀门的口罩机械的摇了摇头。第二家店门口也贴出了口罩已售罄的字样。再找下去也是徒劳，启程往回走，抱着最后一丝希望去小区门口的药店。正挣扎着想要从电瓶车上下来，药店阿姨就探出头来问：“你要什么？别下来了”“口罩还有吗？”她一副“我就知道你要买口罩”的神情：“没有了！”至此，白走一趟的行程结束。</p><p>空无一人的路面上，只剩下雨水拍打的声音，粼粼的寒风，再加上因雨水洗刷而变得异常清晰的景象和前方漂浮着的片片灰云，我感觉自己仿佛瞬间置身于一个病态的环境之中，好像扑面而来的不是雨水，而是消毒液——酒精的味道，充斥着整个城市。我开始慌了。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;【2020年2月21日】上午开完Delphi项目会。对方公司根本就不care你是不是在投稿。自从项目换了leader，cliff离职了以后，就换了一个更加touch的人。明明上次说的是接下来就看LSTM就可以了，这次又变卦，变成提高之前结果的准确度。本来就是从sample里
+        &lt;p&gt;【2020年5月1日】第四次VIS DDL。第一次一作投稿。八点，结束了。9点，和然总欣欢佳慧吃完肯德基的早餐，告别。在之江旅程结束。头昏昏沉沉的，吃完早饭，走到地铁站，坐地铁。却怎么也睡不着。8点结束，迎来的却不是原先的欣喜，而是无限的忧虑。思考之后三年自己要怎么才能够靠
       
     
     </summary>
@@ -444,29 +458,6 @@
     
     
       <category term="随笔" scheme="hhttp://sunshinepursuerwyf.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好词好句2：Digital Humanity</title>
-    <link href="hhttp://sunshinepursuerwyf.xyz/2018/11/18/%E5%A5%BD%E8%AF%8D%E5%A5%BD%E5%8F%A52/"/>
-    <id>hhttp://sunshinepursuerwyf.xyz/2018/11/18/好词好句2/</id>
-    <published>2018-11-18T09:00:29.000Z</published>
-    <updated>2019-05-26T06:54:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>“Visual Text Analytics in Context of Digital Humanities”</p><ul><li><p>DH-projects need to bridge the gap between various scientific cultures, most importantly the gap between <strong>qualitative research traditions</strong> and <strong>quantitative data approaches</strong>. For instance, scholars in the humanities often apply the interpretative methodology while the emerging field of <strong>digital humanities supports quantitative visual and statistical approaches</strong> sup- porting the interpretation and evaluation of specific hypotheses. </p></li><li><p>Normally, humanities scholars read and analyze a text in a sequential manner by so-called close reading. In contrast to this, in the DH, there is a recent trend to develop methods that facilitate distant reading.</p></li></ul><hr><p>“2017_VAST_Conference papers_Interactive Visual Alignment of Medieval Text Versions”<br>interdisciplinary collaboration - 跨学科合作<br>In addition, we report experiences of our interdisciplinary work, including evaluative aspects and limitations due to the nature of humanities data. 此外，我们还报告了跨学科工作的经验，包括由于人文数据的性质而导致的评估经验和限制经验。</p><p>Our work, which takes its inspiration from medieval literary history and a deep understanding of problems related to the textual transmission of sources, is situated in the domain of the digital humanities. <strong>One of the more important aspects of the digital humanities is to support research questions on texts or objects of the historical human record with computational means and to visualize the results.</strong></p><p>The increase in computational approaches to analyzing text have sparked debates about the scale and precision with which the literary scholar operates. The term distant reading, has emerged within literary circles, probably in convenient contradistinction to more traditional, human-centered slow interpretation done on a limited number of texts known as close reading. </p><ul><li>分析文本的计算方法的进步引发了关于文学学者操作的规模和精确度的争论。“远距离阅读”一词出现在文学界，可能与传统的、以人为本的慢速阅读法（细读）形成了鲜明对比。</li></ul><p>In the context of visualization, the more abstract and data-oriented a visualization is the more it is said to be distant. Close reading visualizations provide micro views, enriching plain text with additional information yet keeping the text available for the human reader, whereas distant reading visualizations leverage text structure and semantics, providing macro views that emphasize statistical features of a text corpus, but usually eclipsing the text itself. - 在可视化环境中，可视化越抽象和面向数据，就越被认为是遥远的。近距离阅读可视化提供了微视图，为纯文本提供了额外的信息，同时使文本对人可用，而远距阅读媒体利用了文本结构和语义，提供了强调文本语料库统计特征的宏视图，但通常会使文本本身黯然失色。</p><p>In order to discover related text fragments among these versions, the medievalist faces two major <strong>obstacles</strong>. - 为了发现这些版本之间的相关文本片段，中世纪作家面临着两个主要障碍。<br>First, the lengths of the versions vary greatly, ranging from 2,392 (Lyon manuscript) to 8,201 verse lines (Venice 7 manuscript). The oldest known version, the Oxford manuscript, has 4,002 verse lines. <strong>The second obstacle is the orthographic instability of the medieval French language. The same word can be spelled differently across the different manuscripts, but even within the same manuscript.</strong> Given these two major problems, a comparative close reading of different digitized versions with the aim of identifying related text fragments is a non-trivial task. </p><p>In order to ensure developing a beneficial, powerful tool that supports the given research task, we focused on a user-centered design approach.<br>Gibbs and Owens pointed out that this is especially important for interdisciplinary collaborations in digital humanities projects where visualization scholars “generally [neglect] the typical humanities user in their design” - Gibbs和Owens指出，这对于数字人文项目的跨学科合作尤其重要，因为可视化学者在设计时通常忽略了典型的人文用户。</p><p>==========================<br>“Retaining Potentially Meaningful Spatial Structural Aspects Across Discipline Specific Concept Maps”</p><p>Interdisciplinary collaboration is both desired and regarded as necessary for generating novel points of view in complex situations. The field of digital humanities forms a prime example of this practice, as its research endeavours inherently require the collaboration between disparate disciplines, such as how computer science and literary science combine their expertise to come up with original interpretations of existing body of literature.</p><p>用到了一种手段叫做Concept Map。“ a concept map is a visual representation of associations between words and ideas.”</p><p>involved disciplines：涉及的学科。</p><p>=========================<br>“Scalable MovieBarcodes – An Exploratory Interface for the Analysis of Movies”</p><p>Since Roberto Busa’s famous Index Thomisticus, the Digital Humanities have had a strong focus on text-based media. However, we are currently witnessing an increased interest for other types of media, most recently film and video</p><p>经常会看到“distant reading”，“close reading”，“scalable reading”（allowing users to zoom in and out on an interactive text）这些词儿。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;“Visual Text Analytics in Context of Digital Humanities”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;DH-projects need to bridge the gap between various scientific cu
-      
-    
-    </summary>
-    
     
   </entry>
   
