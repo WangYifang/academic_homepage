@@ -3,6 +3,42 @@
   
     
     <entry>
+      <title><![CDATA[Reflection of VIS2021]]></title>
+      <url>/2021/04/14/vis2021/</url>
+      <content type="html"><![CDATA[<p></p><h4>从古代官员到当代学界：续一场流动的旧梦</h4><p></p>
+<p><blockquote style="font-size: 14px">如今回望过去的四个月，像极了一场繁忙的交替：TVCG2020的完结，VIS2021的启动；量化历史的收尾，当代社会学的序幕。我不知道要如何形容这种感受，只是觉得分外神奇，就好像从古代沿着时光隧道穿梭到了当代。一切仿佛都已经物换星移，但接壤着时光两端的那个亘古不变的隧道，便是流动 (mobility)。</blockquote></p>
+<p></p><p style="text-indent:2em;">初心。这一次初始的idea其实在CareerLens投完稿后就有了雏形，因为感觉在CareerLens中并没有得到很好的解决——人与人之间的职业发展在某些情况下并不是独立的，而是互相影响的——社会资本影响职业流动。另一方面，这个初始的想法牵扯出了一个更抽象的问题——sequence在某些情况下是有互相影响的关系的——sequence+network。听起来，是一个sociology和vis都感兴趣的题目。跟屈老师聊，他给了一个动机——其实教授的career和官员是非常相像的——都是career path，中间还包含着各种社会网络。于是这一次，我们决定从教授数据入手，自己搜集数据，并做一些分析。</p>
+<p></p><p style="text-indent:2em;">探索。research的不确定性在这次project中依旧有所体现。印象最深的一个分叉点就是怎么定义sequence dependence (当时我们定义了这个词作为sequence之间的关系)。多次和Winson、Keke交流，也请教了Shunan、Yuanzhe、Siming，我发现大家对dependence存在两种理解：(1) 我的初衷是用一些额外的已知的社会网络（fact-driven）来使career path之间产生dependence，例如合作网络、同事等; (2) 另一个想法是用data-driven的方式，计算出sequence之间的dependence——听起来更新颖，而且更容易泛化。<br>后来在跟Shunan、Yuanzhe的交流中发现，sequence dependence这个话题很有意思，但是这种data-driven的方法恰恰并不适合运用在我career mobility的场景下。因为data-driven的方式计算出的dependence类似于event之间的因果分析（通过event出现的先后顺序的频率），而不同人的career event之间是几乎不存在这种rules的。<strong>事情变得有意思了起来：我在career path中发现并定义了sequence dependence这个问题，最终却回不到career场景中用data-driven的方式去解决。即便如此，我依旧相信存在别的event sequence的场景，是可以用sequence dependence去抽象问题的。希望以后可以尝试</strong></p>
+<p></p><p style="text-indent:2em;">缩小范围。我们最终选择了第一种外加社会网络的方法（fact-driven）。原先，我们只考虑了career path (职称+引用率)的影响——自己如何影响自己、与他有社会关系的人如何影响自己。但我们意识到光从职称或引用率计算出的影响力将会是很弱的。并且问题不够有吸引力，也无法从社会学角度很好地解释结果。于是我们想到，在一次office hour跟老师的交流中，提到一个很有意思的problem——How to land a job? How different diversities affect scientific production/career paths? 这是一个学界乃至世界都关注的有意思的问题，抽象出来是一个多变量sequence的影响力问题。于是，我们集合了多个数据源，对每一个VIS学者抽取了多条sequence数据（自己的和合作者的），作为分析职业发展的自变量。在社会学做sequence analysis的Winson提供了一个简单的模型(sequence history analysis)，我们基于他做了改进，让它能够适用于长时间段动态的影响力分析。</p>
+<p></p><p style="text-indent:2em;">最终做出的东西又一次跟初心大相径庭。从最初的企图做general的sequence dependence的问题，变成了一个多变量sequence影响力的问题。或许是因为两个领域关注点的不同导致解决方案有所不同，又或许是因为research本身的不确定性。只是在第二年，心中多了些平和，不再为了做不到初心而焦躁，更多了些顺其自然的安宁。希望下一次，可以更加享受这种research本身的不确定性所带来的纯粹属于探索的快乐。</p>
+<p></p><p style="text-indent:2em;">胡思乱想。因为期间还进行了TVCG的revision，时而会觉得恍惚——我们都在发现sequencial的pattern，都在试图分析social network对career的影响。只是官员的project重点放在前者，教授的project重点放在后者——就好像在分析一个亘古不变现象，但仅仅，只是发现故事而已。总结觉得缺了点什么。应该是最后一步——so what的问题。我们发现了这样那样的规律，其最终目的是什么呢？或许是帮助理解古代官制和历史，又或许是帮助researcher理解不同因素对职业发展的影响。那么下一步呢？历史或许已经只能停留在历史，但现当代社会学研究应该不止于此。</p>
+<p></p><p style="text-indent:2em;">我们可以做一些东西来改变现状。这在我去年和今年的两个project中其实体现的不够明显，但是与之相关的是Raj Chetty的那篇Where is the land of opportunity。我依旧清晰地记得读那篇paper时候沉重的心情——社会阶级固化，导致social mobility流动缓慢，贫民与富人的差距越来越大——那种绝望的、无力的现状。但他们一直在努力，努力改变现状——“Chetty’s research combines empirical evidence and economic theory to help design more effective government policies.” 所以我时常在想，面对流动（包括代际和职业流动），我们或许可以小到做职业发展推荐，或许可以大到做政策模拟和制定，又或者其他……从evidence出发做analyze，再从analysis过渡到（帮助domain experts）做decision making。如此，大概才是我真正想做的研究，如此，才是研究的意义所在。</p>
+<p></p><h4>你为什么而坚持？有时候是因为夙愿，有时候，是因为同行的人</h4>从来没有奢求过遇到合拍的合作者，但这一次却意外得到了上天的眷顾。<p></p>
+<p></p><p style="text-indent:2em;">Domain. 或许是因为Winson之前跟老巫等有VIS的合作，所以我们的交流异常的顺畅。他似乎永远有源源不断的新奇的想法，比如Nature或Science的一些paper (SciSci以及之前因为gender被撤稿的)，或者是肥胖和社会网络的关系，亦或者是达芬奇绘画顺序、心理学研究人类记忆sequence…当时就觉得怎么会这么棒啊……而且非常的responsive，有求必应。这才是合作者应该有的样子吧（并没有在拉踩谁的意思。还有一个有意思的事情是，他有一个非常有意思的观点——不同的数据对不同的人群有不同的兴趣：VIS的人更喜欢教授数据；而社会科学的人更喜欢panel data，而panel data鲜少有涉及social network的。确实如此。</p>
+<p></p><p style="text-indent:2em;">Domain and Model. 与去年我们选择CS的一个sequence algorithm不同的是，今年我们的模型源自于sociology，是社会学中做sequence analysis的模型。在前期，Winson推荐了很多社会学sequence analysis的paper给我，结合我之前在visualization和mining看过的sequence clustering/pattern mining等方法，我发现其实很多地方有相似之处（e.g., distance matrix，clustering methods），有一些只不过是换了一些说法。但是在社会学中，除了发现特征，很多时候需要更进一步进行关联分析（e.g., regression）。这种结合sequence和correlation analysis的framework对于社会学来说是很新颖也很实用的方法。这次的Sequence History Analysis是也我之前没有接触过的、社会学这两年才提出的一个方法。基于一个既有的社会学模型，然后将之apply到我们的更为复杂的场景中，进行调整和改进，这一整个流程让我感受到的是，we are indeed collaborate with experts together to work out a better solution. 我们甚至经常会在sequence analysis上进行交流，互相弥补自己的知识漏洞，例如CS有更多的advanced clustering方法，而社会学则有一些更成熟的结合sequence和关联分析的方法。在这种互相交换知识的过程中，我逐渐体会到了合作的快乐。</p>
+<p></p><p style="text-indent:2em;">协作。这一次的项目时间非常紧张，前期花了太多的时间在搜集和整理数据上，在加上有TVCG的干扰，真正意义上的收敛开始于农历新年后（2021-02-17）。2.17开始，意味着只能往前，不能在任何环节有任何犹豫。好在每个人都在状态，总体方向有Winson和潇哥的把关，具体执行有惠华和浩任帮助，每一步都还算走得顺畅。最后的一个半月里，我们几乎没有浪费时间走弯路，非常顺畅的一步步往下走。1.5周搞定了模型(yifang和浩任)，1.5周敲定了系统终稿（惠华）。接下来就是开发（惠华和浩任）和写作（yifang）并行。我好像能更适应并行工作和领导任务了：每天下班前会敲定每个人下一天或几天的task，时刻都开着钉钉随时响应大家的问题，有问题一起讨论解决，或者语音，或者email。印象最深的有两点：(1) 采集数据。虽然我们已经把researcher的范围框定在了VIS领域的1100+学者中，但是爬数据清洗数据依旧很繁琐。他们的career profile集散与很多地方：LinkedIn, Homepage, CV, Department Website…很多还并不是结构化的数据。在2月初的时候，我们依旧没有整理完这部分数据，Winson一度劝我放弃（他以为我还有别的project，以及我告诉他这部分数据很难得到）。但我这越挫越勇的脾气就上来了。立马下定决心半自动搜集：没有LinkedIn的人，直接去其他source手动查找profile，然后发动身边的朋友们众筹填写profile表格。<br>我记得2月初的那一周，大家都回家过年了，我还在lab里对鼠标一顿狂按。最后可能因为点击频率太高，右手大拇指那一块突然变得酸痛无比，好像是发炎了，至今都还隐隐作痛。不过好在，我们在过年这几天整理完了数据，可以收敛了。<br>(2) 改进model的那段时间，因为我一开始对regression几乎一无所知，所以每一天都会email Winson问问题，虽然有12个小时的时差，但是他总能立马回邮件答疑，如此连续七八天，我们终于弄明白了模型也进行了合理的改进。</p>
+<p></p><p style="text-indent:2em;">同行者。我大概不会忘记，凌晨五点，余杭的街道上，我跟欣欢撑着雨伞艰难地走在瓢泼大雨中却还在互相讨论idea的样子；我大概不会忘记，每次觉得idea或者进度很糟糕，沮丧地回到寝室说自己很痛苦的时候，小林萍对我竖起的大大的拇指告诉我“你正在长肌肉呀，已经很棒了”；我大概不会忘记富瑞有一天跟我说，“投稿就是在有限的时间里找到最优解”；我大概不会忘记慢悠悠的晓东说着慢悠悠的话，不会忘记然总时而走过来用peer pressure push我干活，不会忘记学妹桌上永远吃不完的小零食，也不会忘记熊凯因为投稿不回家过年独自在空档的lab干活的身影……形形色色的伙伴们呐，每一个都那么鲜活地、快乐地照耀着我，令我来不及沉浸悲伤和自责，当太阳升起的时候，又再一次背上行囊出发。</p>
+<p></p><h4>宝剑锋从磨砺出</h4><p></p>
+<p></p><p style="text-indent:2em;">Motivation. “你想要讲什么样的故事？”这句话在brainstrorming的初期，被屈老师、巫老师、Winson都问过很多遍。起初，我似乎已经受困于技术无法抽离了。我的脑海中一直萦绕着“sequence dependence”“social network”之类的词眼，觉得很有意思，仿佛填补了一个现有的空缺，并试图去寻找更多的数据集来抽象我的问题。但是有一次巫老师的话又把我拽了回来：不应该从technique出发，而应该从problem出发，思考到底讲什么样的故事才是有意思的？可以帮助domain expert什么东西？在这基础上，可以尝试抽象化故事，令他不仅限于一个case。</p>
+<p></p><p style="text-indent:2em;">Model. 这次的一个缺点是会在一个地方卡住，然后不往下走。很多时候是因为方法不够优化。而潇哥的策略是，“先跑通整个流程，再回来refine每一步”。不要卡死在其中一步就不往前走了。“先随便选个简单的方法试一下”。</p>
+<p></p><p style="text-indent:2em;">Design. 用Sketch好像更熟练了（逐渐抛弃Ai）。Design对于我而言比较难的一点是在于设计系统的逻辑，因为有时候我会做一些无效的、脱离逻辑链的设计。这一次因为时间紧张，系统UI只进行了两次迭代。印象最深的有两点：(1) 第一次的初稿还是很草的，包含了一个personal info的panel和individual-level career path的视图。在给Winson和潇哥看了以后，Winson表示，group-level的regression结果才是我们应该展示的重点——社会学讲求group behavior而不是个人，individual level的信息只是作为补充。于是第二轮，我们把重点放在了如何展示回归结果（系数和p-value）上。(2) 在逻辑上，一开始我们只有同类sequence内部、不同cluster岁时间的比较，所以overall-detail的层级还不够明显，于是潇哥说，能否在这一层上面添加一层不同sequence之间的（自变量）的比较。在添加了这一层信息以后，整个系统确实更加完整和合理了。虽然这次只进行了两次迭代，但是第二次的设计稿相较于去年我多轮的设计稿，精细了很多，不再是因为没想明白而边开发边改设计了，而是可以直接根据设计稿进行开发。这种方法相较于迭代可能更高效。当然在定稿之前，我们需要先挖掘出每个view对应存在哪些pattern，以防止出现最后的design无法展现pattern的情况。</p>
+<p></p><p style="text-indent:2em;">Writing. 不知道是不是因为2020下半年一直在改TVCG paper的缘故，当2021年2月开始动笔写这篇新的paper的时候，虽然说不上文思泉涌，但好像可以比较顺畅的写下来，逻辑和注意点都可以快速有效的迁移。在写的时候，会下意识地避免写复杂长句，也会记得上一次被reviewer challenge的点，这一次提前claim清楚。<br>。所以很感激TVCG的历练，让我了解了很多VAST可能被challenge的点，也让我在写作上有所提升。</p>
+<p></p><p style="text-indent:2em;">还有一个记忆点，投完稿4月1号下午，睡醒去实验室拿电脑和手机充电器，出门，惊觉路边的两排行道树，不知道什么时候已经抽出了嫩芽。恍然，笑着摇了摇头，之前竟没有发现。</p>
+<p></p><p style="text-indent:2em;">再有一个记忆点，是倒数第三天突然开始疯狂打喷嚏，心想不妙。果然感冒越来越严重，只能维C和感冒药一起上。结果在最后一天，感冒突然好了。这就是所谓的“忙起来连病都来不及生”吧。</p>
+<p></p><h4>其他</h4><br>这三个月，恍如隔世。就好像电视剧里面完美的大结局一样，从陈然的TVCG直接minor，到达臻的CHI中了，到我跟坤哥的TVCG同一天得到minor，再到林萍的TVCG也是minor……大家最忧心的业哥的毕业（因为第一轮盲审直接吃了major）到3月快要答辩的前两天，申诉回来可以直接过了。真好啊，大家都有了一个完美的结局。只是下一秒，业哥和欣欢就要毕业了，而我也可能马上要离开。或许故事高潮之后，便是曲终人散吧。故事不能幸免，生活也一样。至此，我们一起玩的人中，有了第一个离开的——业哥（美团4.6入职已经一周了）。我自己倒是少了去年因为要别离而产生的撕心裂肺的痛，平淡的像一个假人。Anyway，祝大家都有一个光明的未来吧。<p></p>
+<p><img src="冬去春来.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;width: 100%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"><br><img src="人物记事.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;width: 100%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"><br><img src="业哥单独来一张.jpg" style="display:inline-block;vertical-align:middle;margin-top:2%;width: 100%;box-shadow: 1.5px 1.5px 6px rgba(0,0,0,0.3),0px 0px 20px rgba(0,0,0,0.1) inset;"></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Reflection </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Reflection of VIS2020]]></title>
       <url>/2020/05/10/vis2020/</url>
       <content type="html"><![CDATA[<blockquote style="font-size: 14px">世事大梦一场，人生几度秋凉？</blockquote>
@@ -1373,15 +1409,6 @@ vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 30%;box-shadow: 1.
   
     
     <entry>
-      <title><![CDATA[About Me]]></title>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<p></p><h2>Interest</h2> <h3>亦圆亦方</h3><p style="text-indent:2em;"> 亦圆亦方，引申自“元芳”+“yifang”。因为身材较圆，自嘲为“圆芳”，后来干脆叫做“圆方”，好似一个出家人的法号。而圆与方，处事的周到、做事的方正，此处世之道，也正是自己所追求的境界。</p><h3>一方菌</h3><p style="text-indent:2em;"> 前室友戏谑的称谓。从“君”到“菌”只需要一夜之间……</p><h3>SunshinePursuer</h3><p style="text-indent:2em;"> 为了取一个合适的ID也是不择手段了。灵感来自某节课一起组队的学长的ID：PorridgeEater。取一个长一点的ID又能够记住的，其实可以把两三个单词拼凑起来啊~</p><p style="text-indent:2em;"> 可是，叫什么好呢？</p><p style="text-indent:2em;"> 正值阴雨天，没有阳光的杭州总是湿哒哒的，心情也被弄得很潮湿。不知道从什么时候开始，开始向往，甚至迷恋那一抹叫做“阳光”的东西。就叫sunshinepursuer吧。</p><h3>禅是一枝花</h3><p style="text-indent:2em;"> 在某电台开的一档栏目。大二的时候开的，到现在渐渐消失热情了……似乎越来越没有时间弄电台了，但依旧觉得自己的声音很好听23333。</p><div style="text-align: center;"><img src="/img/myImg/radio.png" style="width: 500px; height: 245px;"></div><h3>雪小禅</h3><p style="text-indent:2em;"> 喜欢读文字，却不是理工科们喜欢的那些充满批判感或者未来遐想的文章，亦非那些教人们管理、实践、经营情感的社会类指南。从前是白落梅、林清玄，而今，是雪小禅。我喜欢那种味道——素。一袭素衣，一朵莲花，一卷经文，落笔写下一篇小楷。</p><p style="text-indent:2em;"> 有时候回眸往事，想到为什么要选择这样一个专业。脑海里首先蹦出的一句话是高中语文老师对我某篇随笔的评语：“生活不但需要感性的丰满，更需要理性的支持”。然后便释然。若没有老师的引导，不仅仅是写作，我可能在生活中会走向一个只有感性的极端，停留在旧时光里，停留在老光阴里。这样显然是不可取的。</p><p style="text-indent:2em;"> 于是，为了追求平衡，我选择了理性、逻辑作为自己的研究对象。并将感性作为生活的一部分。平日里学逻辑、学世界上最最前沿的技术；私下里，偶尔回归禅意和素雅，做一个素人。与其说是一种妥协，倒不如说这是一种新的尝试。我想看看，最前沿的科技专业和回归自然老旧时光的兴趣究竟能否共生。有朋友评论说：“你一定是码代码里面文字写的最好的，也一定是写作者中代码码得最好的。”我释然。</p><p style="text-indent:2em;"> 能够在自己的领域坚持多久，又能够为自己所爱的东西坚持多久？且看吧。</p><br><p></p>
-<p style="text-indent:2em;"> 2017年5月23日 夜 来自一个不想做安编作业的小胖子。</p>
-
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[一方菌的玛丽苏]]></title>
       <url>/gallery/index.html</url>
       <content type="html"></content>
@@ -1391,6 +1418,15 @@ vertical-align:middle;margin-top:2%;margin-bottom: 2%; width: 30%;box-shadow: 1.
       <title><![CDATA[tags]]></title>
       <url>/tags/index.html</url>
       <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[About Me]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<p></p><h2>Interest</h2> <h3>亦圆亦方</h3><p style="text-indent:2em;"> 亦圆亦方，引申自“元芳”+“yifang”。因为身材较圆，自嘲为“圆芳”，后来干脆叫做“圆方”，好似一个出家人的法号。而圆与方，处事的周到、做事的方正，此处世之道，也正是自己所追求的境界。</p><h3>一方菌</h3><p style="text-indent:2em;"> 前室友戏谑的称谓。从“君”到“菌”只需要一夜之间……</p><h3>SunshinePursuer</h3><p style="text-indent:2em;"> 为了取一个合适的ID也是不择手段了。灵感来自某节课一起组队的学长的ID：PorridgeEater。取一个长一点的ID又能够记住的，其实可以把两三个单词拼凑起来啊~</p><p style="text-indent:2em;"> 可是，叫什么好呢？</p><p style="text-indent:2em;"> 正值阴雨天，没有阳光的杭州总是湿哒哒的，心情也被弄得很潮湿。不知道从什么时候开始，开始向往，甚至迷恋那一抹叫做“阳光”的东西。就叫sunshinepursuer吧。</p><h3>禅是一枝花</h3><p style="text-indent:2em;"> 在某电台开的一档栏目。大二的时候开的，到现在渐渐消失热情了……似乎越来越没有时间弄电台了，但依旧觉得自己的声音很好听23333。</p><div style="text-align: center;"><img src="/img/myImg/radio.png" style="width: 500px; height: 245px;"></div><h3>雪小禅</h3><p style="text-indent:2em;"> 喜欢读文字，却不是理工科们喜欢的那些充满批判感或者未来遐想的文章，亦非那些教人们管理、实践、经营情感的社会类指南。从前是白落梅、林清玄，而今，是雪小禅。我喜欢那种味道——素。一袭素衣，一朵莲花，一卷经文，落笔写下一篇小楷。</p><p style="text-indent:2em;"> 有时候回眸往事，想到为什么要选择这样一个专业。脑海里首先蹦出的一句话是高中语文老师对我某篇随笔的评语：“生活不但需要感性的丰满，更需要理性的支持”。然后便释然。若没有老师的引导，不仅仅是写作，我可能在生活中会走向一个只有感性的极端，停留在旧时光里，停留在老光阴里。这样显然是不可取的。</p><p style="text-indent:2em;"> 于是，为了追求平衡，我选择了理性、逻辑作为自己的研究对象。并将感性作为生活的一部分。平日里学逻辑、学世界上最最前沿的技术；私下里，偶尔回归禅意和素雅，做一个素人。与其说是一种妥协，倒不如说这是一种新的尝试。我想看看，最前沿的科技专业和回归自然老旧时光的兴趣究竟能否共生。有朋友评论说：“你一定是码代码里面文字写的最好的，也一定是写作者中代码码得最好的。”我释然。</p><p style="text-indent:2em;"> 能够在自己的领域坚持多久，又能够为自己所爱的东西坚持多久？且看吧。</p><br><p></p>
+<p style="text-indent:2em;"> 2017年5月23日 夜 来自一个不想做安编作业的小胖子。</p>
+
+]]></content>
     </entry>
     
     <entry>
